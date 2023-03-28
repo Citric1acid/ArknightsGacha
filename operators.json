@@ -1,0 +1,2696 @@
+[
+    {
+        ".type": "Operator",
+        "name": "推进之王",
+        "en_name": "Siege",
+        "star": 6,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:推进之王#",
+        "img": "https://img.moegirl.org.cn/common/thumb/2/2e/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%8E%A8%E8%BF%9B%E4%B9%8B%E7%8E%8B_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%8E%A8%E8%BF%9B%E4%B9%8B%E7%8E%8B_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "风笛",
+        "en_name": "Bagpipe",
+        "star": 6,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:风笛#",
+        "img": "https://img.moegirl.org.cn/common/thumb/c/c1/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%A3%8E%E7%AC%9B_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%A3%8E%E7%AC%9B_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "嵯峨",
+        "en_name": "Saga",
+        "star": 6,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:嵯峨#",
+        "img": "https://img.moegirl.org.cn/common/thumb/c/c5/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%B5%AF%E5%B3%A8_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%B5%AF%E5%B3%A8_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "琴柳",
+        "en_name": "Sailech",
+        "star": 6,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:琴柳#",
+        "img": "https://img.moegirl.org.cn/common/thumb/6/6a/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%90%B4%E6%9F%B3_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%90%B4%E6%9F%B3_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "焰尾",
+        "en_name": "Flametail",
+        "star": 6,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:焰尾#",
+        "img": "https://img.moegirl.org.cn/common/thumb/b/b0/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%84%B0%E5%B0%BE_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%84%B0%E5%B0%BE_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "伺夜",
+        "en_name": "Vigil",
+        "star": 6,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:伺夜#",
+        "img": "https://img.moegirl.org.cn/common/thumb/d/d5/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E4%BC%BA%E5%A4%9C_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E4%BC%BA%E5%A4%9C_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "陈",
+        "en_name": "Ch'en",
+        "star": 6,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:陈#",
+        "img": "https://img.moegirl.org.cn/common/thumb/c/c0/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%99%88_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%99%88_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "赫拉格",
+        "en_name": "Hellagur",
+        "star": 6,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:赫拉格#",
+        "img": "https://img.moegirl.org.cn/common/thumb/2/2b/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%B5%AB%E6%8B%89%E6%A0%BC_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%B5%AB%E6%8B%89%E6%A0%BC_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "煌",
+        "en_name": "Blaze",
+        "star": 6,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:煌#",
+        "img": "https://img.moegirl.org.cn/common/thumb/0/08/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%85%8C_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%85%8C_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "斯卡蒂",
+        "en_name": "Skadi",
+        "star": 6,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:斯卡蒂#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/1f/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%96%AF%E5%8D%A1%E8%92%82_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%96%AF%E5%8D%A1%E8%92%82_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "银灰",
+        "en_name": "SilverAsh",
+        "star": 6,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:银灰#",
+        "img": "https://img.moegirl.org.cn/common/thumb/f/f6/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%93%B6%E7%81%B0_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%93%B6%E7%81%B0_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "棘刺",
+        "en_name": "Thorns",
+        "star": 6,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:棘刺#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/14/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%A3%98%E5%88%BA_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%A3%98%E5%88%BA_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "史尔特尔",
+        "en_name": "Surtr",
+        "star": 6,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:史尔特尔#",
+        "img": "https://img.moegirl.org.cn/common/thumb/d/d3/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%8F%B2%E5%B0%94%E7%89%B9%E5%B0%94_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%8F%B2%E5%B0%94%E7%89%B9%E5%B0%94_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "山",
+        "en_name": "Mountain",
+        "star": 6,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:山#",
+        "img": "https://img.moegirl.org.cn/common/thumb/c/c5/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%B1%B1_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%B1%B1_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "帕拉斯",
+        "en_name": "Pallas",
+        "star": 6,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:帕拉斯#",
+        "img": "https://img.moegirl.org.cn/common/thumb/3/32/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%B8%95%E6%8B%89%E6%96%AF_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%B8%95%E6%8B%89%E6%96%AF_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "耀骑士临光",
+        "en_name": "Nearl the Radiant Knight",
+        "star": 6,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:耀骑士临光#",
+        "img": "https://img.moegirl.org.cn/common/thumb/6/62/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%80%80%E9%AA%91%E5%A3%AB%E4%B8%B4%E5%85%89_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%80%80%E9%AA%91%E5%A3%AB%E4%B8%B4%E5%85%89_1.png",
+        "in_pool": 2
+    },
+    {
+        ".type": "Operator",
+        "name": "艾丽妮",
+        "en_name": "Irene",
+        "star": 6,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:艾丽妮#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/15/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%89%BE%E4%B8%BD%E5%A6%AE_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%89%BE%E4%B8%BD%E5%A6%AE_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "百炼嘉维尔",
+        "en_name": "Gavial the Invincible",
+        "star": 6,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:百炼嘉维尔#",
+        "img": "https://img.moegirl.org.cn/common/thumb/6/60/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%99%BE%E7%82%BC%E5%98%89%E7%BB%B4%E5%B0%94_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%99%BE%E7%82%BC%E5%98%89%E7%BB%B4%E5%B0%94_1.png",
+        "in_pool": 2
+    },
+    {
+        ".type": "Operator",
+        "name": "玛恩纳",
+        "en_name": "Młynar",
+        "star": 6,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:玛恩纳#",
+        "img": "https://img.moegirl.org.cn/common/thumb/2/2a/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%8E%9B%E6%81%A9%E7%BA%B3_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%8E%9B%E6%81%A9%E7%BA%B3_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "重岳",
+        "en_name": "Chongyue",
+        "star": 6,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:重岳#",
+        "img": "https://img.moegirl.org.cn/common/thumb/2/27/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%87%8D%E5%B2%B3_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%87%8D%E5%B2%B3_1.png",
+        "in_pool": 2
+    },
+    {
+        ".type": "Operator",
+        "name": "黑",
+        "en_name": "Schwarz",
+        "star": 6,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:黑#",
+        "img": "https://img.moegirl.org.cn/common/thumb/0/00/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%BB%91_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%BB%91_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "能天使",
+        "en_name": "Exusiai",
+        "star": 6,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:能天使#",
+        "img": "https://img.moegirl.org.cn/common/thumb/3/32/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%83%BD%E5%A4%A9%E4%BD%BF_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%83%BD%E5%A4%A9%E4%BD%BF_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "W",
+        "en_name": "W",
+        "star": 6,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:W#",
+        "img": "https://img.moegirl.org.cn/common/thumb/e/ec/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_W_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_W_1.png",
+        "in_pool": 2
+    },
+    {
+        ".type": "Operator",
+        "name": "早露",
+        "en_name": "Роса",
+        "star": 6,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:早露#",
+        "img": "https://img.moegirl.org.cn/common/thumb/b/b3/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%97%A9%E9%9C%B2_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%97%A9%E9%9C%B2_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "迷迭香",
+        "en_name": "Rosmontis",
+        "star": 6,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:迷迭香#",
+        "img": "https://img.moegirl.org.cn/common/thumb/8/83/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%BF%B7%E8%BF%AD%E9%A6%99_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%BF%B7%E8%BF%AD%E9%A6%99_1.png",
+        "in_pool": 2
+    },
+    {
+        ".type": "Operator",
+        "name": "空弦",
+        "en_name": "Archetto",
+        "star": 6,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:空弦#",
+        "img": "https://img.moegirl.org.cn/common/thumb/b/bf/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%A9%BA%E5%BC%A6_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%A9%BA%E5%BC%A6_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "灰烬",
+        "en_name": "Ash",
+        "star": 6,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:灰烬#",
+        "img": "https://img.moegirl.org.cn/common/thumb/6/6e/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%81%B0%E7%83%AC_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%81%B0%E7%83%AC_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "假日威龙陈",
+        "en_name": "Ch'en the Holungday",
+        "star": 6,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:假日威龙陈#",
+        "img": "https://img.moegirl.org.cn/common/thumb/9/9b/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%81%87%E6%97%A5%E5%A8%81%E9%BE%99%E9%99%88_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%81%87%E6%97%A5%E5%A8%81%E9%BE%99%E9%99%88_1.png",
+        "in_pool": 2
+    },
+    {
+        ".type": "Operator",
+        "name": "远牙",
+        "en_name": "Fartooth",
+        "star": 6,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:远牙#",
+        "img": "https://img.moegirl.org.cn/common/thumb/f/f2/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%BF%9C%E7%89%99_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%BF%9C%E7%89%99_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "菲亚梅塔",
+        "en_name": "Fiammetta",
+        "star": 6,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:菲亚梅塔#",
+        "img": "https://img.moegirl.org.cn/common/thumb/4/41/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%8F%B2%E4%BA%9A%E6%A2%85%E5%A1%94_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%8F%B2%E4%BA%9A%E6%A2%85%E5%A1%94_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "鸿雪",
+        "en_name": "Позёмка",
+        "star": 6,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:鸿雪#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/16/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%B8%BF%E9%9B%AA_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%B8%BF%E9%9B%AA_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "年",
+        "en_name": "Nian",
+        "star": 6,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:年#",
+        "img": "https://img.moegirl.org.cn/common/thumb/0/06/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%B9%B4_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%B9%B4_1.png",
+        "in_pool": 2
+    },
+    {
+        ".type": "Operator",
+        "name": "塞雷娅",
+        "en_name": "Saria",
+        "star": 6,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:塞雷娅#",
+        "img": "https://img.moegirl.org.cn/common/thumb/9/9e/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%A1%9E%E9%9B%B7%E5%A8%85_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%A1%9E%E9%9B%B7%E5%A8%85_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "星熊",
+        "en_name": "Hoshiguma",
+        "star": 6,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:星熊#",
+        "img": "https://img.moegirl.org.cn/common/thumb/9/91/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%98%9F%E7%86%8A_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%98%9F%E7%86%8A_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "森蚺",
+        "en_name": "Eunetctes",
+        "star": 6,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:森蚺#",
+        "img": "https://img.moegirl.org.cn/common/thumb/6/6b/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%A3%AE%E8%9A%BA_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%A3%AE%E8%9A%BA_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "瑕光",
+        "en_name": "Blemishine",
+        "star": 6,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:瑕光#",
+        "img": "https://img.moegirl.org.cn/common/thumb/f/f0/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%91%95%E5%85%89_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%91%95%E5%85%89_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "泥岩",
+        "en_name": "Mudrock",
+        "star": 6,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:泥岩#",
+        "img": "https://img.moegirl.org.cn/common/thumb/3/32/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B3%A5%E5%B2%A9_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B3%A5%E5%B2%A9_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "号角",
+        "en_name": "Horn",
+        "star": 6,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:号角#",
+        "img": "https://img.moegirl.org.cn/common/thumb/3/37/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%8F%B7%E8%A7%92_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%8F%B7%E8%A7%92_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "斥罪",
+        "en_name": "Penance",
+        "star": 6,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:斥罪#",
+        "img": "https://img.moegirl.org.cn/common/thumb/c/cb/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%96%A5%E7%BD%AA_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%96%A5%E7%BD%AA_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "闪灵",
+        "en_name": "Shining",
+        "star": 6,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:闪灵#",
+        "img": "https://img.moegirl.org.cn/common/thumb/3/38/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%97%AA%E7%81%B5_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%97%AA%E7%81%B5_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "夜莺",
+        "en_name": "Nightingale",
+        "star": 6,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:夜莺#",
+        "img": "https://img.moegirl.org.cn/common/thumb/2/2b/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%A4%9C%E8%8E%BA_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%A4%9C%E8%8E%BA_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "凯尔希",
+        "en_name": "Kal'tsit",
+        "star": 6,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:凯尔希#",
+        "img": "https://img.moegirl.org.cn/common/thumb/2/26/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%87%AF%E5%B0%94%E5%B8%8C_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%87%AF%E5%B0%94%E5%B8%8C_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "流明",
+        "en_name": "Lumen",
+        "star": 6,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:流明#",
+        "img": "https://img.moegirl.org.cn/common/thumb/d/d0/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B5%81%E6%98%8E_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B5%81%E6%98%8E_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "焰影苇草",
+        "en_name": "Reed the Flame Shadow",
+        "star": 6,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:焰影苇草#",
+        "img": "https://img.moegirl.org.cn/common/thumb/2/2a/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%84%B0%E5%BD%B1%E8%8B%87%E8%8D%89_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%84%B0%E5%BD%B1%E8%8B%87%E8%8D%89_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "安洁莉娜",
+        "en_name": "Angelina",
+        "star": 6,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:安洁莉娜#",
+        "img": "https://img.moegirl.org.cn/common/thumb/e/ef/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%AE%89%E6%B4%81%E8%8E%89%E5%A8%9C_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%AE%89%E6%B4%81%E8%8E%89%E5%A8%9C_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "麦哲伦",
+        "en_name": "Magallan",
+        "star": 6,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:麦哲伦#",
+        "img": "https://img.moegirl.org.cn/common/thumb/2/23/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%BA%A6%E5%93%B2%E4%BC%A6_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%BA%A6%E5%93%B2%E4%BC%A6_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "铃兰",
+        "en_name": "Suzuran",
+        "star": 6,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:铃兰#",
+        "img": "https://img.moegirl.org.cn/common/thumb/f/f9/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%93%83%E5%85%B0_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%93%83%E5%85%B0_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "浊心斯卡蒂",
+        "en_name": "Skadi the Corrupting Heart",
+        "star": 6,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:浊心斯卡蒂#",
+        "img": "https://img.moegirl.org.cn/common/thumb/2/28/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B5%8A%E5%BF%83%E6%96%AF%E5%8D%A1%E8%92%82_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B5%8A%E5%BF%83%E6%96%AF%E5%8D%A1%E8%92%82_1.png",
+        "in_pool": 2
+    },
+    {
+        ".type": "Operator",
+        "name": "灵知",
+        "en_name": "Gnosis",
+        "star": 6,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:灵知#",
+        "img": "https://img.moegirl.org.cn/common/thumb/7/72/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%81%B5%E7%9F%A5_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%81%B5%E7%9F%A5_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "令",
+        "en_name": "Ling",
+        "star": 6,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:令#",
+        "img": "https://img.moegirl.org.cn/common/thumb/e/ea/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E4%BB%A4_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E4%BB%A4_1.png",
+        "in_pool": 2
+    },
+    {
+        ".type": "Operator",
+        "name": "白铁",
+        "en_name": "Stainless",
+        "star": 6,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:白铁#",
+        "img": "https://img.moegirl.org.cn/common/thumb/f/fa/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%99%BD%E9%93%81_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%99%BD%E9%93%81_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "艾雅法拉",
+        "en_name": "Eyjafjalla",
+        "star": 6,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:艾雅法拉#",
+        "img": "https://img.moegirl.org.cn/common/thumb/4/4a/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%89%BE%E9%9B%85%E6%B3%95%E6%8B%89_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%89%BE%E9%9B%85%E6%B3%95%E6%8B%89_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "莫斯提马",
+        "en_name": "Mostima",
+        "star": 6,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:莫斯提马#",
+        "img": "https://img.moegirl.org.cn/common/thumb/e/ed/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%8E%AB%E6%96%AF%E6%8F%90%E9%A9%AC_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%8E%AB%E6%96%AF%E6%8F%90%E9%A9%AC_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "伊芙利特",
+        "en_name": "Ifrit",
+        "star": 6,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:伊芙利特#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/1e/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E4%BC%8A%E8%8A%99%E5%88%A9%E7%89%B9_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E4%BC%8A%E8%8A%99%E5%88%A9%E7%89%B9_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "刻俄柏",
+        "en_name": "Ceobe",
+        "star": 6,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:刻俄柏#",
+        "img": "https://img.moegirl.org.cn/common/thumb/2/2b/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%88%BB%E4%BF%84%E6%9F%8F_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%88%BB%E4%BF%84%E6%9F%8F_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "夕",
+        "en_name": "Dusk",
+        "star": 6,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:夕#",
+        "img": "https://img.moegirl.org.cn/common/thumb/a/ae/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%A4%95_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%A4%95_1.png",
+        "in_pool": 2
+    },
+    {
+        ".type": "Operator",
+        "name": "异客",
+        "en_name": "Passenger",
+        "star": 6,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:异客#",
+        "img": "https://img.moegirl.org.cn/common/thumb/6/68/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%BC%82%E5%AE%A2_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%BC%82%E5%AE%A2_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "卡涅利安",
+        "en_name": "Carnelian",
+        "star": 6,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:卡涅利安#",
+        "img": "https://img.moegirl.org.cn/common/thumb/0/03/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%8D%A1%E6%B6%85%E5%88%A9%E5%AE%89_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%8D%A1%E6%B6%85%E5%88%A9%E5%AE%89_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "澄闪",
+        "en_name": "Goldenglow",
+        "star": 6,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:澄闪#",
+        "img": "https://img.moegirl.org.cn/common/thumb/4/4b/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%BE%84%E9%97%AA_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%BE%84%E9%97%AA_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "黑键",
+        "en_name": "Ebenholz",
+        "star": 6,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:黑键#",
+        "img": "https://img.moegirl.org.cn/common/thumb/2/20/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%BB%91%E9%94%AE_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%BB%91%E9%94%AE_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "林",
+        "en_name": "Lin",
+        "star": 6,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:林#",
+        "img": "https://img.moegirl.org.cn/common/thumb/7/79/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9E%97_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9E%97_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "阿",
+        "en_name": "Aak",
+        "star": 6,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:阿#",
+        "img": "https://img.moegirl.org.cn/common/thumb/7/7d/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%98%BF_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%98%BF_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "傀影",
+        "en_name": "Phantom",
+        "star": 6,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:傀影#",
+        "img": "https://img.moegirl.org.cn/common/thumb/c/cb/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%82%80%E5%BD%B1_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%82%80%E5%BD%B1_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "温蒂",
+        "en_name": "Weedy",
+        "star": 6,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:温蒂#",
+        "img": "https://img.moegirl.org.cn/common/thumb/7/74/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B8%A9%E8%92%82_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B8%A9%E8%92%82_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "歌蕾蒂娅",
+        "en_name": "Gladiia",
+        "star": 6,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:歌蕾蒂娅#",
+        "img": "https://img.moegirl.org.cn/common/thumb/d/dd/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%AD%8C%E8%95%BE%E8%92%82%E5%A8%85_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%AD%8C%E8%95%BE%E8%92%82%E5%A8%85_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "水月",
+        "en_name": "Mizuki",
+        "star": 6,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:水月#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/1f/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B0%B4%E6%9C%88_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B0%B4%E6%9C%88_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "老鲤",
+        "en_name": "Lee",
+        "star": 6,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:老鲤#",
+        "img": "https://img.moegirl.org.cn/common/thumb/2/26/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%80%81%E9%B2%A4_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%80%81%E9%B2%A4_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "归溟幽灵鲨",
+        "en_name": "Specter the Unchained",
+        "star": 6,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:归溟幽灵鲨#",
+        "img": "https://img.moegirl.org.cn/common/thumb/9/97/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%BD%92%E6%BA%9F%E5%B9%BD%E7%81%B5%E9%B2%A8_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%BD%92%E6%BA%9F%E5%B9%BD%E7%81%B5%E9%B2%A8_1.png",
+        "in_pool": 2
+    },
+    {
+        ".type": "Operator",
+        "name": "多萝西",
+        "en_name": "Dorothy",
+        "star": 6,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:多萝西#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/12/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%A4%9A%E8%90%9D%E8%A5%BF_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%A4%9A%E8%90%9D%E8%A5%BF_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "缄默德克萨斯",
+        "en_name": "Texas the Omertosa",
+        "star": 6,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:缄默德克萨斯#",
+        "img": "https://img.moegirl.org.cn/common/thumb/b/b9/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%BC%84%E9%BB%98%E5%BE%B7%E5%85%8B%E8%90%A8%E6%96%AF_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%BC%84%E9%BB%98%E5%BE%B7%E5%85%8B%E8%90%A8%E6%96%AF_1.png",
+        "in_pool": 2
+    },
+    {
+        ".type": "Operator",
+        "name": "德克萨斯",
+        "en_name": "Texas",
+        "star": 5,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:德克萨斯#",
+        "img": "https://img.moegirl.org.cn/common/thumb/f/f5/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%BE%B7%E5%85%8B%E8%90%A8%E6%96%AF_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%BE%B7%E5%85%8B%E8%90%A8%E6%96%AF_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "格拉尼",
+        "en_name": "Grani",
+        "star": 5,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:格拉尼#",
+        "img": "https://img.moegirl.org.cn/common/thumb/a/ac/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%A0%BC%E6%8B%89%E5%B0%BC_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%A0%BC%E6%8B%89%E5%B0%BC_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "凛冬",
+        "en_name": "Зима",
+        "star": 5,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:凛冬#",
+        "img": "https://img.moegirl.org.cn/common/thumb/f/fe/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%87%9B%E5%86%AC_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%87%9B%E5%86%AC_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "苇草",
+        "en_name": "Reed",
+        "star": 5,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:苇草#",
+        "img": "https://img.moegirl.org.cn/common/thumb/d/d1/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%8B%87%E8%8D%89_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%8B%87%E8%8D%89_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "极境",
+        "en_name": "Elysium",
+        "star": 5,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:极境#",
+        "img": "https://img.moegirl.org.cn/common/thumb/c/c9/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9E%81%E5%A2%83_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9E%81%E5%A2%83_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "贾维",
+        "en_name": "Chiave",
+        "star": 5,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:贾维#",
+        "img": "https://img.moegirl.org.cn/common/thumb/9/94/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%B4%BE%E7%BB%B4_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%B4%BE%E7%BB%B4_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "野鬃",
+        "en_name": "Wild Mane",
+        "star": 5,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:野鬃#",
+        "img": "https://img.moegirl.org.cn/common/thumb/0/04/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%87%8E%E9%AC%83_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%87%8E%E9%AC%83_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "夜半",
+        "en_name": "Blacknight",
+        "star": 5,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:夜半#",
+        "img": "https://img.moegirl.org.cn/common/thumb/6/6f/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%A4%9C%E5%8D%8A_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%A4%9C%E5%8D%8A_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "晓歌",
+        "en_name": "Cantabile",
+        "star": 5,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:晓歌#",
+        "img": "https://img.moegirl.org.cn/common/thumb/6/62/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%99%93%E6%AD%8C_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%99%93%E6%AD%8C_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "谜图",
+        "en_name": "Puzzle",
+        "star": 5,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:谜图#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/1d/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%B0%9C%E5%9B%BE_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%B0%9C%E5%9B%BE_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "暴行",
+        "en_name": "Savage",
+        "star": 5,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:暴行#",
+        "img": "https://img.moegirl.org.cn/common/thumb/2/20/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9A%B4%E8%A1%8C_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9A%B4%E8%A1%8C_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "布洛卡",
+        "en_name": "Broca",
+        "star": 5,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:布洛卡#",
+        "img": "https://img.moegirl.org.cn/common/thumb/f/f1/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%B8%83%E6%B4%9B%E5%8D%A1_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%B8%83%E6%B4%9B%E5%8D%A1_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "芙兰卡",
+        "en_name": "Franka",
+        "star": 5,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:芙兰卡#",
+        "img": "https://img.moegirl.org.cn/common/thumb/9/97/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%8A%99%E5%85%B0%E5%8D%A1_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%8A%99%E5%85%B0%E5%8D%A1_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "拉普兰德",
+        "en_name": "Lappland",
+        "star": 5,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:拉普兰德#",
+        "img": "https://img.moegirl.org.cn/common/thumb/5/56/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%8B%89%E6%99%AE%E5%85%B0%E5%BE%B7_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%8B%89%E6%99%AE%E5%85%B0%E5%BE%B7_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "诗怀雅",
+        "en_name": "Swire",
+        "star": 5,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:诗怀雅#",
+        "img": "https://img.moegirl.org.cn/common/thumb/8/88/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%AF%97%E6%80%80%E9%9B%85_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%AF%97%E6%80%80%E9%9B%85_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "星极",
+        "en_name": "Astesia",
+        "star": 5,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:星极#",
+        "img": "https://img.moegirl.org.cn/common/thumb/5/56/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%98%9F%E6%9E%81_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%98%9F%E6%9E%81_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "炎客",
+        "en_name": "Flamebringer",
+        "star": 5,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:炎客#",
+        "img": "https://img.moegirl.org.cn/common/thumb/a/a8/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%82%8E%E5%AE%A2_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%82%8E%E5%AE%A2_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "因陀罗",
+        "en_name": "Indra",
+        "star": 5,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:因陀罗#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/10/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%9B%A0%E9%99%80%E7%BD%97_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%9B%A0%E9%99%80%E7%BD%97_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "幽灵鲨",
+        "en_name": "Specter",
+        "star": 5,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:幽灵鲨#",
+        "img": "https://img.moegirl.org.cn/common/thumb/8/89/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%B9%BD%E7%81%B5%E9%B2%A8_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%B9%BD%E7%81%B5%E9%B2%A8_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "柏喙",
+        "en_name": "Bibeak",
+        "star": 5,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:柏喙#",
+        "img": "https://img.moegirl.org.cn/common/thumb/3/30/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9F%8F%E5%96%99_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9F%8F%E5%96%99_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "铸铁",
+        "en_name": "Sideroca",
+        "star": 5,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:铸铁#",
+        "img": "https://img.moegirl.org.cn/common/thumb/e/e4/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%93%B8%E9%93%81_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%93%B8%E9%93%81_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "断崖",
+        "en_name": "Ayerscarpe",
+        "star": 5,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:断崖#",
+        "img": "https://img.moegirl.org.cn/common/thumb/b/b4/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%96%AD%E5%B4%96_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%96%AD%E5%B4%96_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "燧石",
+        "en_name": "Flint",
+        "star": 5,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:燧石#",
+        "img": "https://img.moegirl.org.cn/common/thumb/0/00/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%87%A7%E7%9F%B3_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%87%A7%E7%9F%B3_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "鞭刃",
+        "en_name": "Whislash",
+        "star": 5,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:鞭刃#",
+        "img": "https://img.moegirl.org.cn/common/thumb/0/0b/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%9E%AD%E5%88%83_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%9E%AD%E5%88%83_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "战车",
+        "en_name": "Tachanka",
+        "star": 5,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:战车#",
+        "img": "https://img.moegirl.org.cn/common/thumb/6/62/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%88%98%E8%BD%A6_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%88%98%E8%BD%A6_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "赤冬",
+        "en_name": "Akafuyu",
+        "star": 5,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:赤冬#",
+        "img": "https://img.moegirl.org.cn/common/thumb/f/f0/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%B5%A4%E5%86%AC_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%B5%A4%E5%86%AC_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "龙舌兰",
+        "en_name": "Tequila",
+        "star": 5,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:龙舌兰#",
+        "img": "https://img.moegirl.org.cn/common/thumb/8/8f/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%BE%99%E8%88%8C%E5%85%B0_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%BE%99%E8%88%8C%E5%85%B0_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "羽毛笔",
+        "en_name": "La Pluma",
+        "star": 5,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:羽毛笔#",
+        "img": "https://img.moegirl.org.cn/common/thumb/6/66/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%BE%BD%E6%AF%9B%E7%AC%94_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%BE%BD%E6%AF%9B%E7%AC%94_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "海沫",
+        "en_name": "Highmore",
+        "star": 5,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:海沫#",
+        "img": "https://img.moegirl.org.cn/common/thumb/4/49/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B5%B7%E6%B2%AB_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B5%B7%E6%B2%AB_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "达格达",
+        "en_name": "Dagda",
+        "star": 5,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:达格达#",
+        "img": "https://img.moegirl.org.cn/common/thumb/4/42/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%BE%BE%E6%A0%BC%E8%BE%BE_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%BE%BE%E6%A0%BC%E8%BE%BE_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "白金",
+        "en_name": "Platinum",
+        "star": 5,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:白金#",
+        "img": "https://img.moegirl.org.cn/common/thumb/4/4c/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%99%BD%E9%87%91_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%99%BD%E9%87%91_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "灰喉",
+        "en_name": "GreyThroat",
+        "star": 5,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:灰喉#",
+        "img": "https://img.moegirl.org.cn/common/thumb/a/ad/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%81%B0%E5%96%89_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%81%B0%E5%96%89_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "蓝毒",
+        "en_name": "BluePoison",
+        "star": 5,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:蓝毒#",
+        "img": "https://img.moegirl.org.cn/common/thumb/d/dd/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%93%9D%E6%AF%92_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%93%9D%E6%AF%92_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "普罗旺斯",
+        "en_name": "Provence",
+        "star": 5,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:普罗旺斯#",
+        "img": "https://img.moegirl.org.cn/common/thumb/5/54/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%99%AE%E7%BD%97%E6%97%BA%E6%96%AF_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%99%AE%E7%BD%97%E6%97%BA%E6%96%AF_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "守林人",
+        "en_name": "Firewatch",
+        "star": 5,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:守林人#",
+        "img": "https://img.moegirl.org.cn/common/thumb/e/e1/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%AE%88%E6%9E%97%E4%BA%BA_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%AE%88%E6%9E%97%E4%BA%BA_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "送葬人",
+        "en_name": "Executor",
+        "star": 5,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:送葬人#",
+        "img": "https://img.moegirl.org.cn/common/thumb/3/39/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%80%81%E8%91%AC%E4%BA%BA_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%80%81%E8%91%AC%E4%BA%BA_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "陨星",
+        "en_name": "Meteorite",
+        "star": 5,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:陨星#",
+        "img": "https://img.moegirl.org.cn/common/thumb/3/3f/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%99%A8%E6%98%9F_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%99%A8%E6%98%9F_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "慑砂",
+        "en_name": "Sesa",
+        "star": 5,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:慑砂#",
+        "img": "https://img.moegirl.org.cn/common/thumb/2/27/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%85%91%E7%A0%82_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%85%91%E7%A0%82_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "安哲拉",
+        "en_name": "Andreana",
+        "star": 5,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:安哲拉#",
+        "img": "https://img.moegirl.org.cn/common/thumb/d/d6/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%AE%89%E5%93%B2%E6%8B%89_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%AE%89%E5%93%B2%E6%8B%89_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "四月",
+        "en_name": "April",
+        "star": 5,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:四月#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/11/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%9B%9B%E6%9C%88_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%9B%9B%E6%9C%88_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "奥斯塔",
+        "en_name": "Aosta",
+        "star": 5,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:奥斯塔#",
+        "img": "https://img.moegirl.org.cn/common/thumb/4/4c/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%A5%A5%E6%96%AF%E5%A1%94_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%A5%A5%E6%96%AF%E5%A1%94_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "熔泉",
+        "en_name": "Toddifons",
+        "star": 5,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:熔泉#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/14/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%86%94%E6%B3%89_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%86%94%E6%B3%89_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "寒芒克洛丝",
+        "en_name": "Kroos the Keen Glint",
+        "star": 5,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:寒芒克洛丝#",
+        "img": "https://img.moegirl.org.cn/common/thumb/0/0f/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%AF%92%E8%8A%92%E5%85%8B%E6%B4%9B%E4%B8%9D_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%AF%92%E8%8A%92%E5%85%8B%E6%B4%9B%E4%B8%9D_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "埃拉托",
+        "en_name": "Erato",
+        "star": 5,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:埃拉托#",
+        "img": "https://img.moegirl.org.cn/common/thumb/2/26/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%9F%83%E6%8B%89%E6%89%98_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%9F%83%E6%8B%89%E6%89%98_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "承曦格雷伊",
+        "en_name": "Greyy the Lightningbearer",
+        "star": 5,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:承曦格雷伊#",
+        "img": "https://img.moegirl.org.cn/common/thumb/b/b4/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%89%BF%E6%9B%A6%E6%A0%BC%E9%9B%B7%E4%BC%8A_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%89%BF%E6%9B%A6%E6%A0%BC%E9%9B%B7%E4%BC%8A_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "子月",
+        "en_name": "Lunacub",
+        "star": 5,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:子月#",
+        "img": "https://img.moegirl.org.cn/common/thumb/c/c0/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%AD%90%E6%9C%88_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%AD%90%E6%9C%88_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "截云",
+        "en_name": "Jieyun",
+        "star": 5,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:截云#",
+        "img": "https://img.moegirl.org.cn/common/thumb/f/f8/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%88%AA%E4%BA%91_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%88%AA%E4%BA%91_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "拜松",
+        "en_name": "Bison",
+        "star": 5,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:拜松#",
+        "img": "https://img.moegirl.org.cn/common/thumb/c/c0/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%8B%9C%E6%9D%BE_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%8B%9C%E6%9D%BE_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "吽",
+        "en_name": "Hung",
+        "star": 5,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:吽#",
+        "img": "https://img.moegirl.org.cn/common/thumb/9/9c/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%90%BD_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%90%BD_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "火神",
+        "en_name": "Vulcan",
+        "star": 5,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:火神#",
+        "img": "https://img.moegirl.org.cn/common/thumb/9/90/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%81%AB%E7%A5%9E_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%81%AB%E7%A5%9E_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "可颂",
+        "en_name": "Croissant",
+        "star": 5,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:可颂#",
+        "img": "https://img.moegirl.org.cn/common/thumb/6/61/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%8F%AF%E9%A2%82_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%8F%AF%E9%A2%82_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "雷蛇",
+        "en_name": "Liskarm",
+        "star": 5,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:雷蛇#",
+        "img": "https://img.moegirl.org.cn/common/thumb/5/59/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%9B%B7%E8%9B%87_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%9B%B7%E8%9B%87_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "临光",
+        "en_name": "Nearl",
+        "star": 5,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:临光#",
+        "img": "https://img.moegirl.org.cn/common/thumb/6/68/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E4%B8%B4%E5%85%89_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E4%B8%B4%E5%85%89_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "石棉",
+        "en_name": "Asbestos",
+        "star": 5,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:石棉#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/11/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%9F%B3%E6%A3%89_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%9F%B3%E6%A3%89_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "闪击",
+        "en_name": "Blitz",
+        "star": 5,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:闪击#",
+        "img": "https://img.moegirl.org.cn/common/thumb/3/3c/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%97%AA%E5%87%BB_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%97%AA%E5%87%BB_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "暴雨",
+        "en_name": "Heavryrain",
+        "star": 5,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:暴雨#",
+        "img": "https://img.moegirl.org.cn/common/thumb/7/78/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9A%B4%E9%9B%A8_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9A%B4%E9%9B%A8_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "灰毫",
+        "en_name": "Ashlock",
+        "star": 5,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:灰毫#",
+        "img": "https://img.moegirl.org.cn/common/thumb/c/cf/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%81%B0%E6%AF%AB_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%81%B0%E6%AF%AB_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "极光",
+        "en_name": "Aurora",
+        "star": 5,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:极光#",
+        "img": "https://img.moegirl.org.cn/common/thumb/c/cc/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9E%81%E5%85%89_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9E%81%E5%85%89_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "暮落",
+        "en_name": "Shalem",
+        "star": 5,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:暮落#",
+        "img": "https://img.moegirl.org.cn/common/thumb/0/01/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9A%AE%E8%90%BD_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9A%AE%E8%90%BD_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "车尔尼",
+        "en_name": "Czerny",
+        "star": 5,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:车尔尼#",
+        "img": "https://img.moegirl.org.cn/common/thumb/9/92/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%BD%A6%E5%B0%94%E5%B0%BC_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%BD%A6%E5%B0%94%E5%B0%BC_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "火哨",
+        "en_name": "Firewhistle",
+        "star": 5,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:火哨#",
+        "img": "https://img.moegirl.org.cn/common/thumb/c/c7/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%81%AB%E5%93%A8_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%81%AB%E5%93%A8_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "白面鸮",
+        "en_name": "Ptilopsis",
+        "star": 5,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:白面鸮#",
+        "img": "https://img.moegirl.org.cn/common/thumb/8/88/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%99%BD%E9%9D%A2%E9%B8%AE_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%99%BD%E9%9D%A2%E9%B8%AE_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "赫默",
+        "en_name": "Silence",
+        "star": 5,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:赫默#",
+        "img": "https://img.moegirl.org.cn/common/thumb/2/29/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%B5%AB%E9%BB%98_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%B5%AB%E9%BB%98_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "华法琳",
+        "en_name": "Warfarin",
+        "star": 5,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:华法琳#",
+        "img": "https://img.moegirl.org.cn/common/thumb/8/8e/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%8D%8E%E6%B3%95%E7%90%B3_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%8D%8E%E6%B3%95%E7%90%B3_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "微风",
+        "en_name": "Breeze",
+        "star": 5,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:微风#",
+        "img": "https://img.moegirl.org.cn/common/thumb/7/7c/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%BE%AE%E9%A3%8E_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%BE%AE%E9%A3%8E_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "锡兰",
+        "en_name": "Ceylon",
+        "star": 5,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:锡兰#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/17/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%94%A1%E5%85%B0_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%94%A1%E5%85%B0_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "亚叶",
+        "en_name": "Folinic",
+        "star": 5,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:亚叶#",
+        "img": "https://img.moegirl.org.cn/common/thumb/c/c9/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E4%BA%9A%E5%8F%B6_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E4%BA%9A%E5%8F%B6_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "絮雨",
+        "en_name": "Whisperain",
+        "star": 5,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:絮雨#",
+        "img": "https://img.moegirl.org.cn/common/thumb/d/d3/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%B5%AE%E9%9B%A8_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%B5%AE%E9%9B%A8_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "图耶",
+        "en_name": "Tuye",
+        "star": 5,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:图耶#",
+        "img": "https://img.moegirl.org.cn/common/thumb/3/3a/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%9B%BE%E8%80%B6_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%9B%BE%E8%80%B6_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "桑葚",
+        "en_name": "Mulberry",
+        "star": 5,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:桑葚#",
+        "img": "https://img.moegirl.org.cn/common/thumb/f/f7/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%A1%91%E8%91%9A_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%A1%91%E8%91%9A_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "蜜莓",
+        "en_name": "Honeyberry",
+        "star": 5,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:蜜莓#",
+        "img": "https://img.moegirl.org.cn/common/thumb/5/57/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%9C%9C%E8%8E%93_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%9C%9C%E8%8E%93_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "濯尘芙蓉",
+        "en_name": "Hibiscus the Purifier",
+        "star": 5,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:濯尘芙蓉#",
+        "img": "https://img.moegirl.org.cn/common/thumb/9/9d/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%BF%AF%E5%B0%98%E8%8A%99%E8%93%89_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%BF%AF%E5%B0%98%E8%8A%99%E8%93%89_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "明椒",
+        "en_name": "Paprika",
+        "star": 5,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:明椒#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/17/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%98%8E%E6%A4%92_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%98%8E%E6%A4%92_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "初雪",
+        "en_name": "Pramanix",
+        "star": 5,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:初雪#",
+        "img": "https://img.moegirl.org.cn/common/thumb/a/ae/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%88%9D%E9%9B%AA_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%88%9D%E9%9B%AA_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "格劳克斯",
+        "en_name": "Glaucus",
+        "star": 5,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:格劳克斯#",
+        "img": "https://img.moegirl.org.cn/common/thumb/0/07/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%A0%BC%E5%8A%B3%E5%85%8B%E6%96%AF_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%A0%BC%E5%8A%B3%E5%85%8B%E6%96%AF_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "空",
+        "en_name": "Sora",
+        "star": 5,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:空#",
+        "img": "https://img.moegirl.org.cn/common/thumb/c/cf/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%A9%BA_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%A9%BA_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "梅尔",
+        "en_name": "Mayer",
+        "star": 5,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:梅尔#",
+        "img": "https://img.moegirl.org.cn/common/thumb/7/75/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%A2%85%E5%B0%94_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%A2%85%E5%B0%94_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "真理",
+        "en_name": "Истина",
+        "star": 5,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:真理#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/15/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%9C%9F%E7%90%86_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%9C%9F%E7%90%86_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "巫恋",
+        "en_name": "Shamare",
+        "star": 5,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:巫恋#",
+        "img": "https://img.moegirl.org.cn/common/thumb/c/c3/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%B7%AB%E6%81%8B_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%B7%AB%E6%81%8B_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "稀音",
+        "en_name": "Scene",
+        "star": 5,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:稀音#",
+        "img": "https://img.moegirl.org.cn/common/thumb/a/aa/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%A8%80%E9%9F%B3_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%A8%80%E9%9F%B3_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "月禾",
+        "en_name": "Tsukinogi",
+        "star": 5,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:月禾#",
+        "img": "https://img.moegirl.org.cn/common/thumb/e/e6/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9C%88%E7%A6%BE_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9C%88%E7%A6%BE_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "九色鹿",
+        "en_name": "Nine-Colored Deer",
+        "star": 5,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:九色鹿#",
+        "img": "https://img.moegirl.org.cn/common/thumb/9/95/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E4%B9%9D%E8%89%B2%E9%B9%BF_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E4%B9%9D%E8%89%B2%E9%B9%BF_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "夏栎",
+        "en_name": "Quercus",
+        "star": 5,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:夏栎#",
+        "img": "https://img.moegirl.org.cn/common/thumb/f/ff/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%A4%8F%E6%A0%8E_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%A4%8F%E6%A0%8E_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "海蒂",
+        "en_name": "Heidi",
+        "star": 5,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:海蒂#",
+        "img": "https://img.moegirl.org.cn/common/thumb/2/27/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B5%B7%E8%92%82_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B5%B7%E8%92%82_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "掠风",
+        "en_name": "Windflit",
+        "star": 5,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:掠风#",
+        "img": "https://img.moegirl.org.cn/common/thumb/7/79/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%8E%A0%E9%A3%8E_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%8E%A0%E9%A3%8E_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "但书",
+        "en_name": "Proviso",
+        "star": 5,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:但书#",
+        "img": "https://img.moegirl.org.cn/common/thumb/6/63/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E4%BD%86%E4%B9%A6_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E4%BD%86%E4%B9%A6_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "阿米娅",
+        "en_name": "Amiya",
+        "star": 5,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:阿米娅#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/12/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%98%BF%E7%B1%B3%E5%A8%85_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%98%BF%E7%B1%B3%E5%A8%85_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "天火",
+        "en_name": "Skyfire",
+        "star": 5,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:天火#",
+        "img": "https://img.moegirl.org.cn/common/thumb/f/f4/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%A4%A9%E7%81%AB_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%A4%A9%E7%81%AB_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "夜魔",
+        "en_name": "Nightmare",
+        "star": 5,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:夜魔#",
+        "img": "https://img.moegirl.org.cn/common/thumb/0/08/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%A4%9C%E9%AD%94_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%A4%9C%E9%AD%94_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "惊蛰",
+        "en_name": "Leizi",
+        "star": 5,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:惊蛰#",
+        "img": "https://img.moegirl.org.cn/common/thumb/f/fc/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%83%8A%E8%9B%B0_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%83%8A%E8%9B%B0_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "苦艾",
+        "en_name": "Absinthe",
+        "star": 5,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:苦艾#",
+        "img": "https://img.moegirl.org.cn/common/thumb/c/c0/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%8B%A6%E8%89%BE_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%8B%A6%E8%89%BE_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "特米米",
+        "en_name": "Tomimi",
+        "star": 5,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:特米米#",
+        "img": "https://img.moegirl.org.cn/common/thumb/3/39/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%89%B9%E7%B1%B3%E7%B1%B3_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%89%B9%E7%B1%B3%E7%B1%B3_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "莱恩哈特",
+        "en_name": "Leonhardt",
+        "star": 5,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:莱恩哈特#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/1c/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%8E%B1%E6%81%A9%E5%93%88%E7%89%B9_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%8E%B1%E6%81%A9%E5%93%88%E7%89%B9_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "蜜蜡",
+        "en_name": "Beeswax",
+        "star": 5,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:蜜蜡#",
+        "img": "https://img.moegirl.org.cn/common/thumb/b/bd/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%9C%9C%E8%9C%A1_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%9C%9C%E8%9C%A1_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "薄绿",
+        "en_name": "Mint",
+        "star": 5,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:薄绿#",
+        "img": "https://img.moegirl.org.cn/common/thumb/5/52/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%96%84%E7%BB%BF_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%96%84%E7%BB%BF_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "爱丽丝",
+        "en_name": "Iris",
+        "star": 5,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:爱丽丝#",
+        "img": "https://img.moegirl.org.cn/common/thumb/e/eb/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%88%B1%E4%B8%BD%E4%B8%9D_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%88%B1%E4%B8%BD%E4%B8%9D_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "炎狱炎熔",
+        "en_name": "Lava the Purgatory",
+        "star": 5,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:炎狱炎熔#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/1f/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%82%8E%E7%8B%B1%E7%82%8E%E7%86%94_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%82%8E%E7%8B%B1%E7%82%8E%E7%86%94_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "蚀清",
+        "en_name": "Corroserum",
+        "star": 5,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:蚀清#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/16/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%9A%80%E6%B8%85_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%9A%80%E6%B8%85_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "耶拉",
+        "en_name": "Kjera",
+        "star": 5,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:耶拉#",
+        "img": "https://img.moegirl.org.cn/common/thumb/7/7a/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%80%B6%E6%8B%89_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%80%B6%E6%8B%89_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "洛洛",
+        "en_name": "Rockrock",
+        "star": 5,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:洛洛#",
+        "img": "https://img.moegirl.org.cn/common/thumb/a/a8/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B4%9B%E6%B4%9B_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B4%9B%E6%B4%9B_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "星源",
+        "en_name": "Astgenne",
+        "star": 5,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:星源#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/1f/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%98%9F%E6%BA%90_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%98%9F%E6%BA%90_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "至简",
+        "en_name": "Minimalist",
+        "star": 5,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:至简#",
+        "img": "https://img.moegirl.org.cn/common/thumb/a/ad/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%87%B3%E7%AE%80_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%87%B3%E7%AE%80_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "雪绒",
+        "en_name": "Qanipalaat",
+        "star": 5,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:雪绒#",
+        "img": "https://img.moegirl.org.cn/common/thumb/b/b6/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%9B%AA%E7%BB%92_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%9B%AA%E7%BB%92_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "和弦",
+        "en_name": "Harmonie",
+        "star": 5,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:和弦#",
+        "img": "https://img.moegirl.org.cn/common/thumb/b/b2/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%92%8C%E5%BC%A6_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%92%8C%E5%BC%A6_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "红",
+        "en_name": "ProjeKTRed",
+        "star": 5,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:红#",
+        "img": "https://img.moegirl.org.cn/common/thumb/3/3a/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%BA%A2_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%BA%A2_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "槐琥",
+        "en_name": "Waai Fu",
+        "star": 5,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:槐琥#",
+        "img": "https://img.moegirl.org.cn/common/thumb/b/b4/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%A7%90%E7%90%A5_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%A7%90%E7%90%A5_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "狮蝎",
+        "en_name": "Manticore",
+        "star": 5,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:狮蝎#",
+        "img": "https://img.moegirl.org.cn/common/thumb/a/aa/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%8B%AE%E8%9D%8E_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%8B%AE%E8%9D%8E_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "食铁兽",
+        "en_name": "FEater",
+        "star": 5,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:食铁兽#",
+        "img": "https://img.moegirl.org.cn/common/thumb/6/6d/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%A3%9F%E9%93%81%E5%85%BD_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%A3%9F%E9%93%81%E5%85%BD_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "雪雉",
+        "en_name": "Snowsant",
+        "star": 5,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:雪雉#",
+        "img": "https://img.moegirl.org.cn/common/thumb/e/ee/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%9B%AA%E9%9B%89_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%9B%AA%E9%9B%89_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "崖心",
+        "en_name": "Cliffheart",
+        "star": 5,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:崖心#",
+        "img": "https://img.moegirl.org.cn/common/thumb/4/4b/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%B4%96%E5%BF%83_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%B4%96%E5%BF%83_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "罗宾",
+        "en_name": "Robin",
+        "star": 5,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:罗宾#",
+        "img": "https://img.moegirl.org.cn/common/thumb/0/0d/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%BD%97%E5%AE%BE_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%BD%97%E5%AE%BE_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "卡夫卡",
+        "en_name": "Kafka",
+        "star": 5,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:卡夫卡#",
+        "img": "https://img.moegirl.org.cn/common/thumb/3/3e/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%8D%A1%E5%A4%AB%E5%8D%A1_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%8D%A1%E5%A4%AB%E5%8D%A1_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "乌有",
+        "en_name": "Mr.Nothing",
+        "star": 5,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:乌有#",
+        "img": "https://img.moegirl.org.cn/common/thumb/7/7c/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E4%B9%8C%E6%9C%89_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E4%B9%8C%E6%9C%89_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "霜华",
+        "en_name": "Frost",
+        "star": 5,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:霜华#",
+        "img": "https://img.moegirl.org.cn/common/thumb/6/60/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%9C%9C%E5%8D%8E_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%9C%9C%E5%8D%8E_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "贝娜",
+        "en_name": "Bena",
+        "star": 5,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:贝娜#",
+        "img": "https://img.moegirl.org.cn/common/thumb/7/7d/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%B4%9D%E5%A8%9C_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%B4%9D%E5%A8%9C_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "绮良",
+        "en_name": "Kirara",
+        "star": 5,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:绮良#",
+        "img": "https://img.moegirl.org.cn/common/thumb/c/c6/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%BB%AE%E8%89%AF_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%BB%AE%E8%89%AF_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "见行者",
+        "en_name": "Enforcer",
+        "star": 5,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:见行者#",
+        "img": "https://img.moegirl.org.cn/common/thumb/5/51/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%A7%81%E8%A1%8C%E8%80%85_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%A7%81%E8%A1%8C%E8%80%85_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "风丸",
+        "en_name": "Kazemaru",
+        "star": 5,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:风丸#",
+        "img": "https://img.moegirl.org.cn/common/thumb/6/68/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%A3%8E%E4%B8%B8_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%A3%8E%E4%B8%B8_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "红豆",
+        "en_name": "Vigna",
+        "star": 4,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:红豆#",
+        "img": "https://img.moegirl.org.cn/common/thumb/c/c0/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%BA%A2%E8%B1%86_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%BA%A2%E8%B1%86_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "清道夫",
+        "en_name": "Scavenger",
+        "star": 4,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:清道夫#",
+        "img": "https://img.moegirl.org.cn/common/thumb/9/91/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B8%85%E9%81%93%E5%A4%AB_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B8%85%E9%81%93%E5%A4%AB_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "桃金娘",
+        "en_name": "Myrtle",
+        "star": 4,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:桃金娘#",
+        "img": "https://img.moegirl.org.cn/common/thumb/b/b7/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%A1%83%E9%87%91%E5%A8%98_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%A1%83%E9%87%91%E5%A8%98_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "讯使",
+        "en_name": "Courier",
+        "star": 4,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:讯使#",
+        "img": "https://img.moegirl.org.cn/common/thumb/9/9a/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%AE%AF%E4%BD%BF_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%AE%AF%E4%BD%BF_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "豆苗",
+        "en_name": "Beanstalk",
+        "star": 4,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:豆苗#",
+        "img": "https://img.moegirl.org.cn/common/thumb/b/b9/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%B1%86%E8%8B%97_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%B1%86%E8%8B%97_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "艾丝黛尔",
+        "en_name": "Estelle",
+        "star": 4,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:艾丝黛尔#",
+        "img": "https://img.moegirl.org.cn/common/thumb/4/45/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%89%BE%E4%B8%9D%E9%BB%9B%E5%B0%94_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%89%BE%E4%B8%9D%E9%BB%9B%E5%B0%94_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "缠丸",
+        "en_name": "Matoimaru",
+        "star": 4,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:缠丸#",
+        "img": "https://img.moegirl.org.cn/common/thumb/4/4a/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%BC%A0%E4%B8%B8_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%BC%A0%E4%B8%B8_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "杜宾",
+        "en_name": "Dobermann",
+        "star": 4,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:杜宾#",
+        "img": "https://img.moegirl.org.cn/common/thumb/e/e9/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9D%9C%E5%AE%BE_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9D%9C%E5%AE%BE_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "猎蜂",
+        "en_name": "Beehunter",
+        "star": 4,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:猎蜂#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/19/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%8C%8E%E8%9C%82_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%8C%8E%E8%9C%82_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "慕斯",
+        "en_name": "Mousse",
+        "star": 4,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:慕斯#",
+        "img": "https://img.moegirl.org.cn/common/thumb/c/c6/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%85%95%E6%96%AF_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%85%95%E6%96%AF_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "霜叶",
+        "en_name": "Frostleaf",
+        "star": 4,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:霜叶#",
+        "img": "https://img.moegirl.org.cn/common/thumb/b/b7/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%9C%9C%E5%8F%B6_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%9C%9C%E5%8F%B6_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "宴",
+        "en_name": "Utage",
+        "star": 4,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:宴#",
+        "img": "https://img.moegirl.org.cn/common/thumb/9/92/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%AE%B4_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%AE%B4_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "断罪者",
+        "en_name": "Conviction",
+        "star": 4,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:断罪者#",
+        "img": "https://img.moegirl.org.cn/common/thumb/4/45/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%96%AD%E7%BD%AA%E8%80%85_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%96%AD%E7%BD%AA%E8%80%85_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "刻刀",
+        "en_name": "Cutter",
+        "star": 4,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:刻刀#",
+        "img": "https://img.moegirl.org.cn/common/thumb/2/29/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%88%BB%E5%88%80_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%88%BB%E5%88%80_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "芳汀",
+        "en_name": "Arene",
+        "star": 4,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:芳汀#",
+        "img": "https://img.moegirl.org.cn/common/thumb/0/06/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%8A%B3%E6%B1%80_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%8A%B3%E6%B1%80_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "杰克",
+        "en_name": "Jackie",
+        "star": 4,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:杰克#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/1c/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9D%B0%E5%85%8B_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9D%B0%E5%85%8B_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "罗小黑",
+        "en_name": "Luo Xiaohei",
+        "star": 4,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:罗小黑#",
+        "img": "https://img.moegirl.org.cn/common/thumb/5/51/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%BD%97%E5%B0%8F%E9%BB%91_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%BD%97%E5%B0%8F%E9%BB%91_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "石英",
+        "en_name": "Quartz",
+        "star": 4,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:石英#",
+        "img": "https://img.moegirl.org.cn/common/thumb/8/8a/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%9F%B3%E8%8B%B1_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%9F%B3%E8%8B%B1_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "安比尔",
+        "en_name": "Ambriel",
+        "star": 4,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:安比尔#",
+        "img": "https://img.moegirl.org.cn/common/thumb/c/cb/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%AE%89%E6%AF%94%E5%B0%94_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%AE%89%E6%AF%94%E5%B0%94_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "白雪",
+        "en_name": "ShiraYuki",
+        "star": 4,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:白雪#",
+        "img": "https://img.moegirl.org.cn/common/thumb/f/fd/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%99%BD%E9%9B%AA_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%99%BD%E9%9B%AA_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "红云",
+        "en_name": "Vermeil",
+        "star": 4,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:红云#",
+        "img": "https://img.moegirl.org.cn/common/thumb/f/f9/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%BA%A2%E4%BA%91_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%BA%A2%E4%BA%91_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "杰西卡",
+        "en_name": "Jessica",
+        "star": 4,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:杰西卡#",
+        "img": "https://img.moegirl.org.cn/common/thumb/6/66/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9D%B0%E8%A5%BF%E5%8D%A1_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9D%B0%E8%A5%BF%E5%8D%A1_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "流星",
+        "en_name": "Meteor",
+        "star": 4,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:流星#",
+        "img": "https://img.moegirl.org.cn/common/thumb/4/45/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B5%81%E6%98%9F_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B5%81%E6%98%9F_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "梅",
+        "en_name": "May",
+        "star": 4,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:梅#",
+        "img": "https://img.moegirl.org.cn/common/thumb/b/b8/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%A2%85_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%A2%85_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "酸糖",
+        "en_name": "Aciddrop",
+        "star": 4,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:酸糖#",
+        "img": "https://img.moegirl.org.cn/common/thumb/c/c8/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%85%B8%E7%B3%96_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%85%B8%E7%B3%96_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "松果",
+        "en_name": "Pinecone",
+        "star": 4,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:松果#",
+        "img": "https://img.moegirl.org.cn/common/thumb/7/70/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9D%BE%E6%9E%9C_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9D%BE%E6%9E%9C_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "铅踝",
+        "en_name": "Totter",
+        "star": 4,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:铅踝#",
+        "img": "https://img.moegirl.org.cn/common/thumb/6/6f/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%93%85%E8%B8%9D_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%93%85%E8%B8%9D_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "古米",
+        "en_name": "Гум",
+        "star": 4,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:古米#",
+        "img": "https://img.moegirl.org.cn/common/thumb/5/54/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%8F%A4%E7%B1%B3_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%8F%A4%E7%B1%B3_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "坚雷",
+        "en_name": "Dur-nar",
+        "star": 4,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:坚雷#",
+        "img": "https://img.moegirl.org.cn/common/thumb/a/a0/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%9D%9A%E9%9B%B7_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%9D%9A%E9%9B%B7_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "角峰",
+        "en_name": "Matterhorn",
+        "star": 4,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:角峰#",
+        "img": "https://img.moegirl.org.cn/common/thumb/d/d9/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%A7%92%E5%B3%B0_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%A7%92%E5%B3%B0_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "蛇屠箱",
+        "en_name": "Cuora",
+        "star": 4,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:蛇屠箱#",
+        "img": "https://img.moegirl.org.cn/common/thumb/0/07/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%9B%87%E5%B1%A0%E7%AE%B1_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%9B%87%E5%B1%A0%E7%AE%B1_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "泡泡",
+        "en_name": "Bubble",
+        "star": 4,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:泡泡#",
+        "img": "https://img.moegirl.org.cn/common/thumb/d/d9/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B3%A1%E6%B3%A1_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B3%A1%E6%B3%A1_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "调香师",
+        "en_name": "Perfumer",
+        "star": 4,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:调香师#",
+        "img": "https://img.moegirl.org.cn/common/thumb/9/97/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%B0%83%E9%A6%99%E5%B8%88_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%B0%83%E9%A6%99%E5%B8%88_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "嘉维尔",
+        "en_name": "Gavial",
+        "star": 4,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:嘉维尔#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/1f/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%98%89%E7%BB%B4%E5%B0%94_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%98%89%E7%BB%B4%E5%B0%94_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "末药",
+        "en_name": "Myrrh",
+        "star": 4,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:末药#",
+        "img": "https://img.moegirl.org.cn/common/thumb/e/e4/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9C%AB%E8%8D%AF_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9C%AB%E8%8D%AF_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "苏苏洛",
+        "en_name": "Sussurro",
+        "star": 4,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:苏苏洛#",
+        "img": "https://img.moegirl.org.cn/common/thumb/6/61/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%8B%8F%E8%8B%8F%E6%B4%9B_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%8B%8F%E8%8B%8F%E6%B4%9B_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "清流",
+        "en_name": "Purestream",
+        "star": 4,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:清流#",
+        "img": "https://img.moegirl.org.cn/common/thumb/7/76/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B8%85%E6%B5%81_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B8%85%E6%B5%81_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "褐果",
+        "en_name": "Chestnut",
+        "star": 4,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:褐果#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/1a/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%A4%90%E6%9E%9C_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%A4%90%E6%9E%9C_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "地灵",
+        "en_name": "Earthspirit",
+        "star": 4,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:地灵#",
+        "img": "https://img.moegirl.org.cn/common/thumb/d/d7/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%9C%B0%E7%81%B5_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%9C%B0%E7%81%B5_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "深海色",
+        "en_name": "Deepcolor",
+        "star": 4,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:深海色#",
+        "img": "https://img.moegirl.org.cn/common/thumb/b/b3/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B7%B1%E6%B5%B7%E8%89%B2_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B7%B1%E6%B5%B7%E8%89%B2_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "波登可",
+        "en_name": "Podenco",
+        "star": 4,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:波登可#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/1d/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B3%A2%E7%99%BB%E5%8F%AF_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B3%A2%E7%99%BB%E5%8F%AF_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "罗比菈塔",
+        "en_name": "Roberta",
+        "star": 4,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:罗比菈塔#",
+        "img": "https://img.moegirl.org.cn/common/thumb/e/e4/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%BD%97%E6%AF%94%E8%8F%88%E5%A1%94_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%BD%97%E6%AF%94%E8%8F%88%E5%A1%94_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "格雷伊",
+        "en_name": "Greyy",
+        "star": 4,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:格雷伊#",
+        "img": "https://img.moegirl.org.cn/common/thumb/0/00/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%A0%BC%E9%9B%B7%E4%BC%8A_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%A0%BC%E9%9B%B7%E4%BC%8A_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "夜烟",
+        "en_name": "Haze",
+        "star": 4,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:夜烟#",
+        "img": "https://img.moegirl.org.cn/common/thumb/c/ca/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%A4%9C%E7%83%9F_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%A4%9C%E7%83%9F_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "远山",
+        "en_name": "Gitano",
+        "star": 4,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:远山#",
+        "img": "https://img.moegirl.org.cn/common/thumb/0/0d/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%BF%9C%E5%B1%B1_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%BF%9C%E5%B1%B1_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "卡达",
+        "en_name": "Click",
+        "star": 4,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:卡达#",
+        "img": "https://img.moegirl.org.cn/common/thumb/8/86/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%8D%A1%E8%BE%BE_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%8D%A1%E8%BE%BE_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "深靛",
+        "en_name": "Indigo",
+        "star": 4,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:深靛#",
+        "img": "https://img.moegirl.org.cn/common/thumb/7/70/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B7%B1%E9%9D%9B_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B7%B1%E9%9D%9B_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "布丁",
+        "en_name": "Pudding",
+        "star": 4,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:布丁#",
+        "img": "https://img.moegirl.org.cn/common/thumb/d/de/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%B8%83%E4%B8%81_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%B8%83%E4%B8%81_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "阿消",
+        "en_name": "Shaw",
+        "star": 4,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:阿消#",
+        "img": "https://img.moegirl.org.cn/common/thumb/f/f5/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%98%BF%E6%B6%88_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%98%BF%E6%B6%88_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "暗索",
+        "en_name": "Rope",
+        "star": 4,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:暗索#",
+        "img": "https://img.moegirl.org.cn/common/thumb/c/cf/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9A%97%E7%B4%A2_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9A%97%E7%B4%A2_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "砾",
+        "en_name": "Gravel",
+        "star": 4,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:砾#",
+        "img": "https://img.moegirl.org.cn/common/thumb/1/15/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%A0%BE_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%A0%BE_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "伊桑",
+        "en_name": "Ethan",
+        "star": 4,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:伊桑#",
+        "img": "https://img.moegirl.org.cn/common/thumb/7/71/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E4%BC%8A%E6%A1%91_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E4%BC%8A%E6%A1%91_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "孑",
+        "en_name": "Jaye",
+        "star": 4,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:孑#",
+        "img": "https://img.moegirl.org.cn/common/thumb/e/eb/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%AD%91_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%AD%91_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "芬",
+        "en_name": "Fang",
+        "star": 3,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:芬#",
+        "img": "https://img.moegirl.org.cn/common/thumb/0/0b/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%8A%AC_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%8A%AC_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "翎羽",
+        "en_name": "Plume",
+        "star": 3,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:翎羽#",
+        "img": "https://img.moegirl.org.cn/common/thumb/6/64/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%BF%8E%E7%BE%BD_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%BF%8E%E7%BE%BD_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "香草",
+        "en_name": "Vanilla",
+        "star": 3,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:香草#",
+        "img": "https://img.moegirl.org.cn/common/thumb/9/9b/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%A6%99%E8%8D%89_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%A6%99%E8%8D%89_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "玫兰莎",
+        "en_name": "Melantha",
+        "star": 3,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:玫兰莎#",
+        "img": "https://img.moegirl.org.cn/common/thumb/5/55/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%8E%AB%E5%85%B0%E8%8E%8E_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%8E%AB%E5%85%B0%E8%8E%8E_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "泡普卡",
+        "en_name": "Popukar",
+        "star": 3,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:泡普卡#",
+        "img": "https://img.moegirl.org.cn/common/thumb/3/30/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B3%A1%E6%99%AE%E5%8D%A1_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%B3%A1%E6%99%AE%E5%8D%A1_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "月见夜",
+        "en_name": "Midnight",
+        "star": 3,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:月见夜#",
+        "img": "https://img.moegirl.org.cn/common/thumb/2/2d/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9C%88%E8%A7%81%E5%A4%9C_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9C%88%E8%A7%81%E5%A4%9C_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "安德切尔",
+        "en_name": "Adnachiel",
+        "star": 3,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:安德切尔#",
+        "img": "https://img.moegirl.org.cn/common/thumb/5/52/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%AE%89%E5%BE%B7%E5%88%87%E5%B0%94_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%AE%89%E5%BE%B7%E5%88%87%E5%B0%94_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "克洛丝",
+        "en_name": "Kroos",
+        "star": 3,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:克洛丝#",
+        "img": "https://img.moegirl.org.cn/common/thumb/3/3c/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%85%8B%E6%B4%9B%E4%B8%9D_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%85%8B%E6%B4%9B%E4%B8%9D_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "空爆",
+        "en_name": "Catapult",
+        "star": 3,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:空爆#",
+        "img": "https://img.moegirl.org.cn/common/thumb/a/a0/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%A9%BA%E7%88%86_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%A9%BA%E7%88%86_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "斑点",
+        "en_name": "Spot",
+        "star": 3,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:斑点#",
+        "img": "https://img.moegirl.org.cn/common/thumb/f/f1/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%96%91%E7%82%B9_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%96%91%E7%82%B9_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "卡缇",
+        "en_name": "Cardigan",
+        "star": 3,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:卡缇#",
+        "img": "https://img.moegirl.org.cn/common/thumb/b/b0/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%8D%A1%E7%BC%87_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%8D%A1%E7%BC%87_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "米格鲁",
+        "en_name": "Beagle",
+        "star": 3,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:米格鲁#",
+        "img": "https://img.moegirl.org.cn/common/thumb/5/54/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%B1%B3%E6%A0%BC%E9%B2%81_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%B1%B3%E6%A0%BC%E9%B2%81_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "安赛尔",
+        "en_name": "Ansel",
+        "star": 3,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:安赛尔#",
+        "img": "https://img.moegirl.org.cn/common/thumb/8/8e/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%AE%89%E8%B5%9B%E5%B0%94_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%AE%89%E8%B5%9B%E5%B0%94_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "芙蓉",
+        "en_name": "Hibiscus",
+        "star": 3,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:芙蓉#",
+        "img": "https://img.moegirl.org.cn/common/thumb/e/e0/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%8A%99%E8%93%89_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E8%8A%99%E8%93%89_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "梓兰",
+        "en_name": "Orchid",
+        "star": 3,
+        "career": "辅助",
+        "link": "https://zh.moegirl.org.cn/明日方舟:梓兰#",
+        "img": "https://img.moegirl.org.cn/common/thumb/2/2e/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%A2%93%E5%85%B0_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%A2%93%E5%85%B0_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "史都华德",
+        "en_name": "Steward",
+        "star": 3,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:史都华德#",
+        "img": "https://img.moegirl.org.cn/common/thumb/b/b8/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%8F%B2%E9%83%BD%E5%8D%8E%E5%BE%B7_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%8F%B2%E9%83%BD%E5%8D%8E%E5%BE%B7_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "炎熔",
+        "en_name": "Lava",
+        "star": 3,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:炎熔#",
+        "img": "https://img.moegirl.org.cn/common/thumb/9/98/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%82%8E%E7%86%94_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E7%82%8E%E7%86%94_1.png",
+        "in_pool": 1
+    },
+    {
+        ".type": "Operator",
+        "name": "夜刀",
+        "en_name": "Yato",
+        "star": 2,
+        "career": "先锋",
+        "link": "https://zh.moegirl.org.cn/明日方舟:夜刀#",
+        "img": "https://img.moegirl.org.cn/common/thumb/5/50/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%A4%9C%E5%88%80_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%A4%9C%E5%88%80_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "巡林者",
+        "en_name": "Rangers",
+        "star": 2,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:巡林者#",
+        "img": "https://img.moegirl.org.cn/common/thumb/b/bc/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%B7%A1%E6%9E%97%E8%80%85_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%B7%A1%E6%9E%97%E8%80%85_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "黑角",
+        "en_name": "NoirCorne",
+        "star": 2,
+        "career": "重装",
+        "link": "https://zh.moegirl.org.cn/明日方舟:黑角#",
+        "img": "https://img.moegirl.org.cn/common/thumb/a/a2/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%BB%91%E8%A7%92_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E9%BB%91%E8%A7%92_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "12F",
+        "en_name": "12F",
+        "star": 2,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:12F#",
+        "img": "https://img.moegirl.org.cn/common/thumb/b/b0/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_12F_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_12F_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "杜林",
+        "en_name": "Durin",
+        "star": 2,
+        "career": "术师",
+        "link": "https://zh.moegirl.org.cn/明日方舟:杜林#",
+        "img": "https://img.moegirl.org.cn/common/thumb/9/98/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9D%9C%E6%9E%97_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%9D%9C%E6%9E%97_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "Castle-3",
+        "en_name": "Castle-3",
+        "star": 1,
+        "career": "近卫",
+        "link": "https://zh.moegirl.org.cn/明日方舟:Castle-3#",
+        "img": "https://img.moegirl.org.cn/common/thumb/b/ba/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_Castle-3_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_Castle-3_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "正义骑士号",
+        "en_name": "\"Justice Knight\"",
+        "star": 1,
+        "career": "狙击",
+        "link": "https://zh.moegirl.org.cn/明日方舟:正义骑士号#",
+        "img": "https://img.moegirl.org.cn/common/thumb/8/85/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%AD%A3%E4%B9%89%E9%AA%91%E5%A3%AB%E5%8F%B7_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_%E6%AD%A3%E4%B9%89%E9%AA%91%E5%A3%AB%E5%8F%B7_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "Lancet-2",
+        "en_name": "Lancet-2",
+        "star": 1,
+        "career": "医疗",
+        "link": "https://zh.moegirl.org.cn/明日方舟:Lancet-2#",
+        "img": "https://img.moegirl.org.cn/common/thumb/a/a4/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_Lancet-2_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_Lancet-2_1.png",
+        "in_pool": 0
+    },
+    {
+        ".type": "Operator",
+        "name": "THRM-EX",
+        "en_name": "Thermal-EX",
+        "star": 1,
+        "career": "特种",
+        "link": "https://zh.moegirl.org.cn/明日方舟:THRM-EX#",
+        "img": "https://img.moegirl.org.cn/common/thumb/0/03/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_THRM-EX_1.png/100px-%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%8D%8A%E8%BA%AB%E5%83%8F_THRM-EX_1.png",
+        "in_pool": 0
+    },
+    {
+        "name": "麒麟X夜刀",
+        "en_name": "Kirin X Yato",
+        "star": 6,
+        "career": "特种",
+        "img": "",
+        "limited": 2
+    },
+    {
+        "name": "火龙S黑角",
+        "en_name": "Rathalos S Noir Corne",
+        "star": 5,
+        "career": "近卫",
+        "img": "",
+        "limited": 2
+    },
+    {
+        "name": "泰拉大陆调查团",
+        "en_name": "Terra Research Commission",
+        "star": 1,
+        "career": "狙击",
+        "img": "",
+        "limited": 0
+    }
+]

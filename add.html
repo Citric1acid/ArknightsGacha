@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>明日方舟模拟寻访系统</title>
+	<!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="static/bootstrap.min.css">
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="static/style.css">
+	<style type="text/css"></style>	
+	<script src="code.js"></script>
+
+</head>
+<body>
+	<div class="container">
+		<div id="info">
+			<h3>明日方舟模拟寻访系统</h3>
+		</div>
+		<div class="row">
+			<div class="col-sm-3">
+				<!-- sidebar -->
+				<ul class="nav nav-list flex-column sidebar">
+					<li>
+						<a class="btn btn-link" href="/index.html">模拟寻访</a>
+					</li>
+					<li class="active">
+						<a class="btn btn-link" href="">干员添加</a>
+					</li>
+					<li>
+						<a class="btn btn-link" href="/add_banner.html">卡池添加</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-9 content">
+				<form id="add" method="post">
+					<div class="form-group row">
+					    <label for="name" class="col-sm-2 col-form-label">干员中文名</label>
+					    <div class="col-sm-10">
+					      <input type="text" class="form-control" id="name" name="name" required>
+					    </div>
+					</div>
+					<div class="form-group row">
+					    <label for="en_name" class="col-sm-2 col-form-label">干员英文名</label>
+					    <div class="col-sm-10">
+					      <input type="text" class="form-control" id="en_name" name="en_name">
+					    </div>
+					</div>
+					<div class="form-group row">
+					    <label class="col-sm-2 col-form-label">稀有度</label>
+					    <div class="col-sm-10" id="input-star">
+						    <!-- <div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="star" id="star1" value=1>
+								<label class="form-check-label" for="star1">1</label>
+							</div> -->
+						</div>
+					</div>
+					<div class="form-group row">
+					    <label class="col-sm-2 col-form-label">职业</label>
+					    <div class="col-sm-10" id="input-career">
+						    <!-- <div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="career" id="career1" value="">
+								<label class="form-check-label" for="career1">1</label>
+							</div> -->
+						</div>
+					</div>
+					<div class="form-group row">
+					    <label for="img" class="col-sm-2 col-form-label">图片链接</label>
+					    <div class="col-sm-10">
+					    	<input type="text" class="form-control" id="picture" name="img">
+					    </div>
+					</div>
+					<div class="form-group row">
+						<label class="col-sm-2 col-form-label">是否可寻访</label>
+					    <div class="col-sm-10">
+						    <div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="limited" id="limited1" value=0>
+								<label class="form-check-label" for="limited1">不可寻访</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="limited" id="limited2" value=1 checked>
+								<label class="form-check-label" for="limited2">可寻访</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="limited" id="limited3" value=2>
+								<label class="form-check-label" for="inlineRadio3">限定</label>
+							</div>
+					    </div>
+					</div>
+					<button type="submit" class="btn btn-primary">确定</button>
+					
+				</form>
+			</div>
+
+		</div>
+	</div>
+	<script type="text/javascript">
+		for (let i = 1; i <= 6; i++) {
+			let star_html = `<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="star" id="star${i}" value=${i} required>
+								<label class="form-check-label" for="star${i}">${i}${STAR}</label>
+							</div>`;
+			$("#input-star").append(star_html);
+		}
+		for (let i in CAREERS) {
+			let career_html = `<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="career" id="career${i}" value="${CAREERS[i]}">
+								<label class="form-check-label" for="career${i}">${CAREERS[i]}</label>
+							</div>`;
+			$("#input-career").append(career_html);
+		}
+		
+		let ans = confirm("确定要添加干员吗？");
+		if (!ans) {
+			window.location.href = "/index.html";
+		}
+	</script>
+</body>
+</html>

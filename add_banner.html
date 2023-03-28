@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>明日方舟模拟寻访系统</title>
+	<!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="static/bootstrap.min.css">
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="static/style.css">
+	<style type="text/css"></style>	
+	<script src="code.js"></script>
+	<script type="text/javascript">
+		var n6 = 1, n5 = 1, n4 = 1, nq5 = 0;
+
+		function add6() {
+			n6 += 1;
+			let up_html = `<div class="input-group mb-3">
+								<input type="text" class="form-control" name="up6.${n6}">
+								<div class="input-group-append">
+									<button class="btn btn-outline-secondary" type="button" onclick="add6()"> + </button>
+								</div>
+							</div>`;
+			$("#up6").append(up_html);
+		}
+		function addq5() {
+			nq5 += 1;
+			let up_html = `<div class="input-group mb-3">
+								<input type="text" class="form-control" name="upq5.${nq5}">
+								<div class="input-group-append">
+									<button class="btn btn-outline-secondary" type="button" onclick="addq5()"> + </button>
+								</div>
+							</div>`;
+			$("#upq5").append(up_html);
+		}
+		function add5() {
+			n5 += 1;
+			let up_html = `<div class="input-group mb-3">
+								<input type="text" class="form-control" name="up5.${n5}">
+								<div class="input-group-append">
+									<button class="btn btn-outline-secondary" type="button" onclick="add5()"> + </button>
+								</div>
+							</div>`;
+			$("#up5").append(up_html);
+		}
+		function add4() {
+			n4 += 1;
+			let up_html = `<div class="input-group mb-3">
+								<input type="text" class="form-control" name="up4.${n4}">
+								<div class="input-group-append">
+									<button class="btn btn-outline-secondary" type="button" onclick="add4()"> + </button>
+								</div>
+							</div>`;
+			$("#up4").append(up_html);
+		}
+	</script>
+</head>
+<body>
+	<div class="container">
+		<div id="info">
+			<h3>明日方舟模拟寻访系统</h3>
+		</div>
+		<div class="row">
+			<div class="col-sm-3">
+				<!-- sidebar -->
+				<ul class="nav nav-list flex-column sidebar">
+					<li>
+						<a class="btn btn-link" href="/index.html">模拟寻访</a>
+					</li>
+					<li>
+						<a class="btn btn-link" href="/add.html">干员添加</a>
+					</li>
+					<li class="active">
+						<a class="btn btn-link" href="">卡池添加</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-9 content">
+				<form id="add" method="post">
+					<div class="form-group row">
+					    <label for="name" class="col-sm-2 col-form-label">卡池名</label>
+					    <div class="col-sm-10">
+					      <input type="text" class="form-control" id="name" name="banner_name" required>
+					    </div>
+					</div>
+					<div class="form-group row">
+						<label class="col-sm-2 col-form-label">是否限定</label>
+					    <div class="col-sm-10">
+						    <div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="limited" id="limited1" value=1>
+								<label class="form-check-label" for="limited1">是</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="limited" id="limited2" value=0 checked>
+								<label class="form-check-label" for="limited2">否</label>
+							</div>
+					    </div>
+					</div>
+					<div class="form-group row">
+					    <label for="prob6" class="col-sm-2 col-form-label">六星up概率</label>
+					    <div class="col-sm-10">
+						    <input type="text" class="form-control" id="prob6" name="prob6" value=0.5>
+						</div>
+					</div>
+					<div class="form-group row">
+					    <label class="col-sm-2 col-form-label">六星up</label>
+					    <div class="col-sm-10" id="up6">
+						    <div class="input-group mb-3">
+								<input type="text" class="form-control" name="up6.1">
+								<div class="input-group-append">
+									<button class="btn btn-outline-secondary" type="button" onclick="add6()"> + </button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="form-group row">
+					    <label class="col-sm-2 col-form-label">5倍概率提升</label>
+					    <div class="col-sm-10" id="upq5">
+						    <div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="probq5" id="probq5" onclick="addq5()" value="*5">
+								<label class="form-check-label" for="probq5">有</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="probq5" checked>
+								<label class="form-check-label">无</label>
+							</div>
+							<!-- <div class="input-group mb-3">
+								<input type="text" class="form-control" name="upq5.1">
+								<div class="input-group-append">
+									<button class="btn btn-outline-secondary" type="button" onclick="addq5()"> + </button>
+								</div>
+							</div> -->
+						</div>
+					</div>
+					<div class="form-group row">
+					    <label for="prob5" class="col-sm-2 col-form-label">五星up概率</label>
+					    <div class="col-sm-10">
+						    <input type="text" class="form-control" id="prob5" name="prob5" value=0.5>
+						</div>
+					</div>
+					<div class="form-group row">
+					    <label class="col-sm-2 col-form-label">五星up</label>
+					    <div class="col-sm-10" id="up5">
+						    <div class="input-group mb-3">
+								<input type="text" class="form-control" name="up5.1">
+								<div class="input-group-append">
+									<button class="btn btn-outline-secondary" type="button" onclick="add5()"> + </button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="form-group row">
+					    <label for="prob4" class="col-sm-2 col-form-label">四星up概率</label>
+					    <div class="col-sm-10">
+						    <input type="text" class="form-control" id="prob4" name="prob4" value=0.2>
+						</div>
+					</div>
+					<div class="form-group row">
+					    <label class="col-sm-2 col-form-label">四星up</label>
+					    <div class="col-sm-10" id="up4">
+						    <div class="input-group mb-3">
+								<input type="text" class="form-control" name="up4.1">
+								<div class="input-group-append">
+									<button class="btn btn-outline-secondary" type="button" onclick="add4()"> + </button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button type="submit" class="btn btn-primary">确定</button>
+					
+				</form>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		let ans = confirm("确定要添加卡池吗？");
+		if (!ans) {
+			window.location.href = "/index.html";
+		}
+	</script>
+</body>
+</html>
