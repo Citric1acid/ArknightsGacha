@@ -1,0 +1,214 @@
+[
+        {
+        ".type": "Banner",
+        "banner_name": "万象伶仃",
+        "limited": 4,
+        "prob_up": {
+            "6": {
+                "star": 6,
+                "prob": 0.7,
+                "names": [
+                    "重岳",
+                    "林"
+                ]
+            },
+            "*5": {
+                "star": 6,
+                "prob": "*5",
+                "names": [
+                    "年",
+                    "夕",
+                    "令"
+                ]
+            },
+            "5": {
+                "star": 5,
+                "prob": 0.5,
+                "names": [
+                    "火哨"
+                ]
+            },
+            "4": {
+                "star": 4,
+                "prob": 0.2,
+                "names": []
+            }
+        }
+    },
+    {
+        ".type": "Banner",
+        "banner_name": "春江逢雪",
+        "limited": 3,
+        "prob_up": {
+            "6": {
+                "star": 6,
+                "prob": 0.5,
+                "names": [
+                    "仇白"
+                ]
+            },
+            "5": {
+                "star": 5,
+                "prob": 0.5,
+                "names": [
+                    "铎铃",
+                    "吽"
+                ]
+            },
+            "4": {
+                "star": 4,
+                "prob": 0.2,
+                "names": []
+            }
+        }
+    },
+    {
+        ".type": "Banner",
+        "banner_name": "砺火成锋",
+        "limited": 0,
+        "prob_up": {
+            "6": {
+                "star": 6,
+                "prob": 0.5,
+                "names": [
+                    "麒麟X夜刀"
+                ]
+            },
+            "5": {
+                "star": 5,
+                "prob": 0.5,
+                "names": [
+                    "火龙S黑角"
+                ]
+            },
+            "4": {
+                "star": 4,
+                "prob": 0.2,
+                "names": []
+            }
+        }
+    },
+    {
+        ".type": "Banner",
+        "banner_name": "犹在影中",
+        "limited": 0,
+        "prob_up": {
+            "6": {
+                "star": 6,
+                "prob": 0.5,
+                "names": [
+                    "伊内丝"
+                ]
+            },
+            "5": {
+                "star": 5,
+                "prob": 0.5,
+                "names": [
+                    "洋灰",
+                    "掠风"
+                ]
+            },
+            "4": {
+                "star": 4,
+                "prob": 0.2,
+                "names": [
+                    "休谟斯"
+                ]
+            }
+        }
+    },
+    {
+        ".type": "Banner",
+        "banner_name": "干员轮换卡池105",
+        "limited": 0,
+        "prob_up": {
+            "6": {
+                "star": 6,
+                "prob": 0.5,
+                "names": [
+                    "斥罪",
+                    "帕拉斯"
+                ]
+            },
+            "5": {
+                "star": 5,
+                "prob": 0.5,
+                "names": [
+                    "月禾",
+                    "乌有",
+                    "极光"
+                ]
+            },
+            "4": {
+                "star": 4,
+                "prob": 0.2,
+                "names": []
+            }
+        }
+    },
+    {
+        ".type": "Banner",
+        "banner_name": "中坚寻访02",
+        "limited": 2,
+        "prob_up": {
+            "6": {
+                "star": 6,
+                "prob": 0.5,
+                "names": [
+                    "星熊",
+                    "斯卡蒂"
+                ]
+            },
+            "5": {
+                "star": 5,
+                "prob": 0.5,
+                "names": [
+                    "赫默",
+                    "芙兰卡",
+                    "食铁兽"
+                ]
+            },
+            "4": {
+                "star": 4,
+                "prob": 0.2,
+                "names": []
+            }
+        }
+    },
+    {
+        ".type": "Banner",
+        "banner_name": "真理孑然",
+        "limited": 1,
+        "prob_up": {
+            "6": {
+                "star": 6,
+                "prob": 0.7,
+                "names": [
+                    "缪尔赛思",
+                    "霍尔海雅"
+                ]
+            },
+            "*5": {
+                "star": 6,
+                "prob": "*5",
+                "names": [
+                    "浊心斯卡蒂",
+                    "耀骑士临光",
+                    "归溟幽灵鲨"
+                ]
+            },
+            "5": {
+                "star": 5,
+                "prob": 0.5,
+                "names": [
+                    "玫拉"
+                ]
+            },
+            "4": {
+                "star": 4,
+                "prob": 0.2,
+                "names": []
+            }
+        }
+    }
+]

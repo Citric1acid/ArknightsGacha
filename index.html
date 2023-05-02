@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!--ensure proper rendering and touch zooming for all devices-->
+	<title>明日方舟模拟寻访系统</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="static/bootstrap.min.css">
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>	
+	<link rel="stylesheet" href="static/themes/smoothness/jquery-ui.min.css">
+	<!-- jQuery ui -->
+	<script src="node_modules/jquery-ui/dist/jquery-ui.js"></script>
+	<link rel="stylesheet" type="text/css" href="static/style.css">
+	<style type="text/css">
+		div.show-operators {
+			font-size: 14px;
+			background-color: lightyellow;
+			padding: 8px;
+			margin-top: 10px;
+			margin-bottom: 10px; 
+		}
+		div#get1 {
+			min-width: 340px;
+			width: min-content;
+			padding: 10px;
+			border: 2px;
+			border-style: solid;
+			margin: 15px;
+		}
+		div#get1 p {
+			margin: 0;
+		}
+		div#get10 p {
+			margin: 0;
+		}
+		div.display10 {
+			align-content: center;
+			display: inline-block;
+			min-width: 140px;
+			min-height: 230px;
+			
+			padding: 8px;
+			border: 2px;
+			border-style: solid;
+			margin: 10px 8px 10px 8px;
+		}
+		div.img-sm {
+			height: 140px;
+			text-align: center;
+		}
+		div.img-sm img {
+			display: invisible;
+		}
+		div#show-up {
+			margin-bottom: 5px; 
+		}
+		div#banner p{
+			margin-top: 8px;
+			margin-bottom: 4px;
+		}
+	</style>
+	<script src="code.js"></script>
+	<!-- <script src="operators_.js"></script>
+	<script src="banners_.js"></script> -->
+	<script type="text/javascript">
+		const version = "1.2";
+		// initializing
+		// 三星 四星 五星 六星的概率: 40%, 50%, 8%, 2%
+		const p_defalt = [0.4, 0.5, 0.08, 0.02];
+		var p = p_defalt.slice(); // 用slice复制, 否则p会指向p_defalt的引用
+		var get_five_star = 10, // 五星保底的次数
+			no_six_star = 0, // 无六星的次数
+			num_get = 0, // 抽取的次数
+			single6 = 0; // 单六星保底的次数
+		var operators, banners;
+		
+		// "说明"显示的文字
+		const text = "这是玩家自制的“明日方舟”的模拟寻访系统v" + version + "。 </br>\
+		点击“寻访一次”按钮进行寻访。 </br>\
+		在这里寻访，你不需要合成玉、不需要源石、也不需要氪金！ </br>\
+		卡池有五星保底、六星保底、特定干员概率提升等功能, 与游戏内相同，可以切换不同的卡池。 </br>\
+		在“添加干员”和“添加卡池”页面可以更新干员信息和卡池信息。\
+		本次更新抢在市面上已有的模拟抽卡器更新前更新，让大家第一时间体验抽卡的乐趣，\
+		祝大家在游戏中寻访到喜欢的干员！";
+
+		// 保存的卡池信息
+		/* banner_data = {"_common": {"no_six_star": 0, "p": p_defalt}, 
+		    banner_name: {"get_five_star": 10, "num_get": 0}}
+		其中_common保存常规池信息 */
+		var banner_data = load_banner_data();
+		// 已获得的干员
+		var own = load_own_data();
+
+		// 卡池信息, 默认第一个卡池
+		var operator_in_banner = {"banner_name": "",
+			"limited": false,
+			"common": [0, 0, 0, [], [], [], []], // 3星~6星, 前面留空
+			"prob_up": [[], 0, 0, [], [], [], []],
+			"prob": [0, 0, 0, 0, 0, 0, 0] 
+		}; 
+		var lock = false; // 锁住按钮，避免点击过快
+
+	</script>		
+</head>
+<body>
+	<div class="container">
+		<div id="info">
+			<h3>明日方舟模拟寻访系统
+				<a id="description" tabindex="0" class="btn btn-sm btn-info" role="button" data-bs-toggle="popover" data-bs-trigger="focus" style="margin-left: 24px;">说明</a>
+			</h3>
+		</div>
+		<div class="row">
+			<div class="col-sm-3">
+				<!-- sidebar -->
+				<ul class="nav nav-list flex-column sidebar">
+					<li>
+						<a class="btn btn-link" href="">模拟寻访</a>
+					</li>
+					<li class="active">
+						<a class="btn btn-link" href="/add.html">干员添加</a>
+					</li>
+					<li>
+						<a class="btn btn-link" href="/add_banner.html">卡池添加</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-9 content">
+				<div id="choose-banner">
+					<span>选择卡池</span>
+					<div class="dropdown" style="display: inline;">
+						<button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    --选择卡池--
+						</button>
+						<div id="all-banners" class="dropdown-menu" aria-labelledby="dropdownMenuButton"></div>
+					</div>
+					<p id="banner-type">此卡池为标准寻访</p>
+					<!-- <p style="color: gray;">注: 重新选择卡池会刷新五星保底和限定池保底，刷新页面会重置所有保底。</p> -->
+				</div>
+				<div id="gacha">
+					<button id="button1" type="button" class="btn btn-outline-dark">寻访一次</button>
+					<button id="button10" type="button" class="btn btn-outline-dark">寻访十次</button>
+					<div id="get1" style="display: none;">
+						<p id="stars"></p>
+						<img id="img1" class="img-responsive" src="" alt="" height=320>
+						<p id="info1"></p>
+					</div>
+					<div id="get10" style="display: none;"></div>
+					<p id="num5"><span>10</span>次内必出五星以上</p>
+					<p id="single6" style="display: none;"></p>
+					<p>未寻访到六星次数 <span id="num6">0</span>, 当前六星概率 <span id="prob6">2</span>%</p>
+					<p>在当前卡池中已抽取 <span id="num-get">0</span> 次</p>
+				</div>
+				<div id="banner" class="show-operators">
+					<div id="show-up">以下干员出率提升：<br/></div>
+					<p>所有可获得的干员</p>
+					<p>六星：</p>
+					<div id="show6"></div>
+					<p>五星：</p>
+					<div id="show5"></div>
+					<p>四星：</p>
+					<div id="show4"></div>
+					<p>三星：</p>
+					<div id="show3"></div>
+				</div>
+				<div id="own" style="display: none;">
+					<p>已获得的干员:</p>
+					<div id="operators-get"></div>
+					<div style="text-align: right;">
+						<button id="reset" type="button" class="btn btn-danger btn-sm">清除数据</button>
+					</div>
+				</div>
+				<div id="acknowledgement">
+					<p>感谢<a href="https://zh.moegirl.org.cn/明日方舟">萌娘百科</a>和<a href="https://prts.wiki">PRTS wiki</a>提供的图片</p>
+					<p>本系统由<span style="color: goldenrod;">柠檬酸</span>制作</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$.getJSON("operators.json", (data) => {
+			operators = data;
+			$.getJSON("banners.json", (data) => { // 保证两个json都被读取
+				banners = data.reverse();
+				operator_in_banner = Select_banner(); // 默认第一个卡池
+
+				// 选择卡池
+				for (i in banners) {
+					// 在下拉列表里显示
+					s = '<a class="dropdown-item" href="#" onclick=Select_banner(' + i + ')>' + banners[i].banner_name + '</a>';
+					$("#all-banners").append(s);
+				}
+				$("#dropdownMenuButton").html(banners[0].banner_name);
+			});
+		});
+		
+		if (own.length > 0) show_own(own);
+
+		// 弹出说明
+		const description = $("#description");
+		const popover = new bootstrap.Popover(description, {
+			container: 'body',
+			content: text,
+			html: true,
+			trigger: 'focus'
+		});
+
+		// 寻访一次
+		$("#button1").click(() => {
+			if (lock) return; // 避免点击过快
+
+			lock = true;
+			$("#get1").show();
+			$("#get10").hide();
+			
+			var got = Gacha();
+
+			// 更新保底次数
+			if (get_five_star > 0) {
+				$("#num5 span").html(get_five_star).show();
+			} else {
+				$("#num5").hide();
+			}
+			$("#num6").html(no_six_star);
+			if (no_six_star > 50) {
+				$("#prob6").html(2 * (no_six_star - 49));
+			} else {
+				$("#prob6").html(2);
+			}
+			if (single6 > 0) {
+				// 单六星保底次数
+				let name = operator_in_banner.prob_up[6][0].name;
+				if (operator_in_banner.limited) {
+					$("#single6").html(`${single6}次之内必出<span style="color: darkorange"> ${name}</span>`);
+				} else if (single6 == 1) {
+					$("#single6").html(`下一个六星必为<span style="color: darkorange"> ${name}</span>`);
+				} else {
+					$("#single6").html(`${single6-1}次后下一个六星必为<span style="color: darkorange"> ${name}</span>`);
+				}
+				$("#single6").show();
+			} else {
+				$("#single6").hide();
+			}
+			// 已抽次数
+			$("#num-get").html(num_get);
+
+			// 保存卡池信息
+			store_banner_data(operator_in_banner.banner_name);
+
+			// 显示结果
+			$("#img1").hide();
+			var show_stars = Show_star(got.star);
+			$("#stars").html(show_stars);
+			$("#stars").show(200); // show in 200 ms
+			Set_border_color($("#get1"), got.star);
+			
+			$("#img1").attr("src", "img/illustration/"+ got.name + ".png").on("error", () => {
+				// 优先使用本地图片，否则使用网上的图片
+				$("#img1").attr("src", got.img);
+			});
+			$("#img1").attr("alt", got.name + ".png");
+			$("#img1").delay(250).fadeIn(400); // delay 200 ms and fadeIn in 400 ms
+
+			$("#info1").html(got.name + ' ' + got.en_name + '</br>' + got.career);
+
+			// 显示已有干员
+			show_own(own);
+			store_own_data();
+			console.log("own: ");
+			console.log(own);
+
+			setTimeout(() => {lock = false}, 650);	
+		});
+
+		// 寻访十次
+		$("#button10").click(() => {
+			if (lock) return; // 避免点击过快
+
+			lock = true;
+			$("#get1").hide();
+			// 清空区域
+			$("#get10").html("").show();
+			var got;
+			for (let i = 0; i < 10; i += 1) {
+				// 每个等待400ms后显示
+				setTimeout(() => {
+					got = Gacha();
+					var show_stars = Show_star(got.star);
+					var s = '<div class="display10"><p>' + show_stars + '</p>' +
+						'<div class="img-sm"><img class="img-responsive" alt="' + got.name + '.png" height=140></div>' +
+						'<p>' + got.name + ' ' + got.en_name + '</br>' + got.career + '</p></div>';
+					$("#get10").append(s);
+					$("#get10 .img-responsive:last").attr("src", "img/long_image/" + got.name + ".png").on("error", () => { 
+						// 优先使用本地图片，否则使用网上的图片
+						$("#get10 .img-responsive:last").attr("src", got.long_img);
+					});
+					Set_border_color($(".display10").last(), got.star);
+					$(".display10 img").last().delay(150).fadeIn(250);
+				}, i * 400);
+			}
+
+			setTimeout(() => {
+				// 更新保底次数
+				$("#num5").hide();
+				$("#num6").html(no_six_star);
+				if (no_six_star > 50) {
+					$("#prob6").html(2 * (no_six_star - 49));
+				} else {
+					$("#prob6").html(2);
+				}
+				if (single6 > 0) {
+					// 单六星保底次数
+					let name = operator_in_banner.prob_up[6][0].name;
+					if (operator_in_banner.limited) {
+						$("#single6").html(`${single6}次之内必出<span style="color: darkorange"> ${name}</span>`);
+					} else if (single6 == 1) {
+						$("#single6").html(`下一个六星必为<span style="color: darkorange"> ${name}</span>`);
+					} else {
+						$("#single6").html(`${single6-1}次后下一个六星必为<span style="color: darkorange"> ${name}</span>`);
+					}
+					$("#single6").show();
+				} else {
+					$("#single6").hide();
+				}
+				// 已抽次数
+				$("#num-get").html(num_get);
+				
+				// 显示已有干员
+				show_own(own);	
+				// 保存卡池信息
+				store_banner_data(operator_in_banner.banner_name);
+				store_own_data();
+				console.log("own: ");
+				console.log(own);
+				lock = false;
+			}, 3700);
+		});
+
+		// 清除数据
+		$("#reset").click(() => {
+			if (lock) return; // 避免点击过快
+			let ans = confirm("确认清除数据？这将清除已有干员数据并重设所有卡池信息！");
+			if (ans) {
+				reset_data();
+			}
+		});
+
+	</script>
+</body>
+</html>
