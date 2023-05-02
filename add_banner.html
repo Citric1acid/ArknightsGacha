@@ -3,58 +3,74 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>明日方舟模拟寻访系统</title>
-	<!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+	<title>明日方舟模拟寻访系统-添加卡池</title>
+	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" type="text/css" href="static/bootstrap.min.css">
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
 	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<!-- jQuery ui -->
+	<link rel="stylesheet" href="static/themes/smoothness/jquery-ui.min.css">
+	<script src="node_modules/jquery-ui/dist/jquery-ui.js"></script>
 	<link rel="stylesheet" type="text/css" href="static/style.css">
 	<style type="text/css"></style>	
 	<script src="code.js"></script>
 	<script type="text/javascript">
 		var n6 = 1, n5 = 1, n4 = 1, nq5 = 0;
+		var op_names = {};
 
 		function add6() {
 			n6 += 1;
 			let up_html = `<div class="input-group mb-3">
-								<input type="text" class="form-control" name="up6.${n6}">
+								<input type="text" class="form-control op-name6" name="up6.${n6}">
 								<div class="input-group-append">
 									<button class="btn btn-outline-secondary" type="button" onclick="add6()"> + </button>
 								</div>
 							</div>`;
 			$("#up6").append(up_html);
+			$("input.op-name6").autocomplete({
+				source: op_names[6]
+			});
 		}
 		function addq5() {
 			nq5 += 1;
 			let up_html = `<div class="input-group mb-3">
-								<input type="text" class="form-control" name="upq5.${nq5}">
+								<input type="text" class="form-control op-name6" name="upq5.${nq5}">
 								<div class="input-group-append">
 									<button class="btn btn-outline-secondary" type="button" onclick="addq5()"> + </button>
 								</div>
 							</div>`;
 			$("#upq5").append(up_html);
+			$("input.op-name6").autocomplete({
+				source: op_names[6]
+			});
 		}
 		function add5() {
 			n5 += 1;
 			let up_html = `<div class="input-group mb-3">
-								<input type="text" class="form-control" name="up5.${n5}">
+								<input type="text" class="form-control op-name5" name="up5.${n5}">
 								<div class="input-group-append">
 									<button class="btn btn-outline-secondary" type="button" onclick="add5()"> + </button>
 								</div>
 							</div>`;
 			$("#up5").append(up_html);
+			$("input.op-name5").autocomplete({
+				source: op_names[5]
+			});
 		}
 		function add4() {
 			n4 += 1;
 			let up_html = `<div class="input-group mb-3">
-								<input type="text" class="form-control" name="up4.${n4}">
+								<input type="text" class="form-control op-name4" name="up4.${n4}">
 								<div class="input-group-append">
 									<button class="btn btn-outline-secondary" type="button" onclick="add4()"> + </button>
 								</div>
 							</div>`;
 			$("#up4").append(up_html);
+			$("input.op-name4").autocomplete({
+				source: op_names[4]
+			});
 		}
 	</script>
 </head>
@@ -87,15 +103,32 @@
 					    </div>
 					</div>
 					<div class="form-group row">
-						<label class="col-sm-2 col-form-label">是否限定</label>
+						<label class="col-sm-2 col-form-label">卡池类型</label>
 					    <div class="col-sm-10">
+					    	<!-- 0: 标准, 1: 限定, 2: 中坚, 3: 标准(旧), 4: 限定(旧) -->
 						    <div class="form-check form-check-inline">
-								<input class="form-check-input" type="radio" name="limited" id="limited1" value=1>
-								<label class="form-check-label" for="limited1">是</label>
+								<input class="form-check-input" type="radio" name="limited" id="limited0" value=0 checked>
+								<label class="form-check-label" for="limited0">标准寻访</label>
 							</div>
 							<div class="form-check form-check-inline">
-								<input class="form-check-input" type="radio" name="limited" id="limited2" value=0 checked>
-								<label class="form-check-label" for="limited2">否</label>
+								<input class="form-check-input" type="radio" name="limited" id="limited2" value=2>
+								<label class="form-check-label" for="limited2">中坚寻访</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="limited" id="limited3" value=3>
+								<label class="form-check-label" for="limited3">
+									<span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="包含中坚寻访范围内的角色">标准寻访(旧)</span>
+								</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="limited" id="limited1" value=1>
+								<label class="form-check-label" for="limited1">限定寻访</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="limited" id="limited4" value=4>
+								<label class="form-check-label" for="limited4">
+									<span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="包含中坚寻访范围内的角色">限定寻访(旧)</span>
+								</label>
 							</div>
 					    </div>
 					</div>
@@ -109,7 +142,7 @@
 					    <label class="col-sm-2 col-form-label">六星up</label>
 					    <div class="col-sm-10" id="up6">
 						    <div class="input-group mb-3">
-								<input type="text" class="form-control" name="up6.1">
+								<input type="text" class="form-control op-name6" name="up6.1">
 								<div class="input-group-append">
 									<button class="btn btn-outline-secondary" type="button" onclick="add6()"> + </button>
 								</div>
@@ -124,7 +157,7 @@
 								<label class="form-check-label" for="probq5">有</label>
 							</div>
 							<div class="form-check form-check-inline">
-								<input class="form-check-input" type="radio" name="probq5" checked>
+								<input class="form-check-input" type="radio" name="probq5" value="" checked>
 								<label class="form-check-label">无</label>
 							</div>
 							<!-- <div class="input-group mb-3">
@@ -145,7 +178,7 @@
 					    <label class="col-sm-2 col-form-label">五星up</label>
 					    <div class="col-sm-10" id="up5">
 						    <div class="input-group mb-3">
-								<input type="text" class="form-control" name="up5.1">
+								<input type="text" class="form-control op-name5" name="up5.1">
 								<div class="input-group-append">
 									<button class="btn btn-outline-secondary" type="button" onclick="add5()"> + </button>
 								</div>
@@ -162,7 +195,7 @@
 					    <label class="col-sm-2 col-form-label">四星up</label>
 					    <div class="col-sm-10" id="up4">
 						    <div class="input-group mb-3">
-								<input type="text" class="form-control" name="up4.1">
+								<input type="text" class="form-control op-name4" name="up4.1">
 								<div class="input-group-append">
 									<button class="btn btn-outline-secondary" type="button" onclick="add4()"> + </button>
 								</div>
@@ -176,10 +209,24 @@
 		</div>
 	</div>
 	<script type="text/javascript">
-		let ans = confirm("确定要添加卡池吗？");
+		$.getJSON("operators.json", (data) => {
+			// var all_names = allNames(data);
+			// console.log(all_names);
+			for (let i = 6; i >= 4; i --) {
+				op_names[i] = allNames(data, i);
+				$("input.op-name"+i).autocomplete({
+					source: op_names[i]
+				});
+			}
+		});
+		const popoverTriggerList = $("[data-bs-toggle=popover]");
+		const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl));
+
+		/* let ans = confirm("确定要添加卡池吗？");
 		if (!ans) {
 			window.location.href = "/index.html";
-		}
+		} */
+		
 	</script>
 </body>
 </html>

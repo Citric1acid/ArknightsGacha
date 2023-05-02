@@ -70,6 +70,12 @@ function Select(star) {
 	var choices;
 	// 用0~1的随机数决定是否抽到up
 	var x = Math.random();
+
+	if (single6 == 1 && (star == 6 || operator_in_banner.limited == 1)) {
+		// 单六星保底
+		single6 = 0;
+		return operator_in_banner.prob_up[6][0]
+	}
 	if (x < operator_in_banner.prob[star]) {
 		// 抽到up
 		choices = operator_in_banner.prob_up[star];
@@ -84,6 +90,20 @@ function Select(star) {
 		}
 	}
 	return Random_choice(choices)
+}
+
+function allNames(operators, star) {
+	if (star > 0) {
+		return operators.filter((item) => item.star == star).map((item) => item.name)
+	}
+	return operators.map((item) => item.name)
+}
+
+function findByName(name) {
+	if (Array.isArray(name)) {
+		return name.map((item) => findByName(item))
+	}
+	return operators.find((item) => item.name == name)
 }
 
 function Gacha() {
@@ -123,13 +143,20 @@ function Gacha() {
 	// then select an operator 
 	var result = Select(star);
 	console.log("operator: " + result.name);
+	// 单六星保底
+	if (result.name == operator_in_banner.prob_up[6][0]) {
+		single6 = 0;
+	}
+	if (single6 > 1 && star < 6) {
+		single6 -= 1;
+	}
 
 	// 添加到已有干员
 	let i;
 	if ((i = own.findIndex((item) => item.name == result.name)) >= 0) {
 		own[i].count += 1;
 	} else {
-		own.push({"name": result.name, count: 1});
+		own.push({"name": result.name, "star": result.star, "count": 1});
 	}
 
 	return result
@@ -158,19 +185,26 @@ function Select_banner(n = 0) {
 		$("#num5").hide();
 	}
 	// 重置六星保底
-	if (banner.limited) {
+	if (banner.limited == 1 || banner.limited == 4) {
+		// 限定
 		no_six_star = data.no_six_star;
 		p = data.p;
 		$("#banner-type").html("此卡池为限定寻访");
 		$("#banner-type").css("color", "orchid");
+	} else if (banner.limited == 2) {
+		// 中坚寻访
+		no_six_star = banner_data["_early"].no_six_star;
+		p = banner_data["_early"].p;
+		$("#banner-type").html("此卡池为中坚寻访");
+		$("#banner-type").css("color", "4396d6");
 	} else {
-		// 还原常规池次数
+		// 标准寻访
 		no_six_star = banner_data["_common"].no_six_star;
 		p = banner_data["_common"].p;
 		$("#banner-type").html("此卡池为标准寻访");
-		$("#banner-type").css("color", "deepskyblue");
+		$("#banner-type").css("color", "f9df5c");
 	}
-	num_get = data.num_get;
+	num_get = data.num_get;  // 已抽次数
 	$("#num6").html(no_six_star);
 	$("#prob6").html(p[3] * 100);
 	$("#num-get").html(num_get);
@@ -180,31 +214,86 @@ function Select_banner(n = 0) {
 	// 读取干员信息
 	// reset
 	operator_in_banner = {"banner_name": banner.banner_name,
-		"limited": banner.limited,
+		"limited": 0, // 0: 标准, 1: 限定, 2: 中坚
+		"data": data,
 		"common": [0, 0, 0, [], [], [], []], // 3星~6星, 前面留空
 		"prob_up": [[], 0, 0, [], [], [], []], // 3星~6星, [0]放5倍提升
 		"prob": [0, 0, 0, 0, 0, 0, 0]
 	};
+	if (banner.limited == 1 || banner.limited == 4) {
+		operator_in_banner.limited = 1;
+	} else if (banner.limited == 2) {
+		operator_in_banner.limited = 2;
+	}
+	let all_prob_up = [];
+	// read prob and prob_up
+	for (let s in banner_up) { // s: {star: 6, prob: 0.5, names: []}
+		if (banner_up[s].names.length == 0) continue; // empty
+		let star = banner_up[s].star, 
+			prob = banner_up[s].prob, 
+			names = banner_up[s].names;
+		all_prob_up = all_prob_up.concat(names);
+		if (s == "*5") {
+			// 5倍概率, 通过在普通operator_in_banner[s]中放入5个重复的卡
+			operator_in_banner.prob[0] = "*5";
+			operator_in_banner.prob_up[0] = findByName(names);
+		} else { // s is star
+			operator_in_banner.prob[star] = prob;
+			operator_in_banner.prob_up[star] = findByName(names);
+		}
+	}
+	// add common
+	const inPool = (operator, banner_limited) => {
+		/*    卡池 	  0: 标准, 1: 限定, 2: 中坚, 3: 标准(旧), 4: 限定(旧)
+		角色 0: 不可寻访 	-		-		-		-			-
+			1: 可寻访 	+		+		-		+			+
+			2: 限定 		-		up 		-		-			up		
+			3: 仅中坚寻访 -		-		+		+			+ 
+		*/
+		if (operator.star <= 2) return false;  // star = 1, 2
+		if (operator.star <= 4) return true;  // star = 3, 4
+ 		switch (operator.in_pool) {
+		case 0: return false;
+		case 1: return banner_limited != 2;
+		case 2: return false;
+		case 3: return banner_limited >= 2;
+		}
+	}
 	for (let o of operators) {
-		// up干员
-		let up;
-		if (up = banner_up.find((item) => item.name == o.name)) {
-			s = o.star;
-			if (up.prob == "*5") {
-				// 5倍概率, 通过在普通operator_in_banner[s]中放入5个重复的卡
-				operator_in_banner.prob_up[0].push(o);
-				operator_in_banner.prob[0] = "*5";
-				continue;
-			}
-			// 直接写占prob概率
-			operator_in_banner.prob_up[s].push(o);
-			operator_in_banner.prob[s] = up.prob;
-		}
+		let name = o.name, star = o.star;
+		if (all_prob_up.find((item) => item == name)) continue; // up干员
 		// 非up干员
-		else if (o.in_pool == 1) {
-			s = o.star;
-			operator_in_banner.common[s].push(o);
+		if (inPool(o, banner.limited)) { // 判断是否在卡池中
+			operator_in_banner.common[star].push(o);
 		}
+	}
+
+	// 单六星保底
+	if ((banner_up[6].names.length == 1) && !banner_up["*5"] && (banner.limited <= 1 || banner.limited == 4)) {
+		single6 = data["single6"];
+		if (single6 === undefined) {
+			if (operator_in_banner.limited == 1) { // 限定
+				single6 = 120;
+			} else { // 非限定
+				single6 = 151;
+			}
+		}	
+	} else {
+		single6 = 0;
+	}
+	if (single6 > 0) {
+		// 单六星保底次数
+		let name = banner_up[6].names[0];
+		if (operator_in_banner.limited == 1) {
+			$("#single6").html(`${single6}次之内必出<span style="color: darkorange"> ${name}</span>`);
+		} else if (single6 == 1) {
+			$("#single6").html(`下一个六星必为<span style="color: darkorange"> ${name}</span>`);
+		} else {
+			$("#single6").html(`${single6-1}次后下一个六星必为<span style="color: darkorange"> ${name}</span>`);
+		}
+		$("#single6").show();
+	} else {
+		$("#single6").hide();
 	}
 	console.log(operator_in_banner);
 	Show_all_operators();
@@ -226,7 +315,7 @@ function Show_all_operators() {
 			operator = operator_in_banner.prob_up[6][i];
 			s = '<img class="head-image" src="img/head_image/' + operator.name + '.png" height=50>' + operator.name;
 			$("#show-up").append(s);
-			Set_border_color($(".head-image:last"), operator.star);
+			Set_border_color($("#show-up .head-image:last"), operator.star);
 			$("#show6").append(" / " + operator.name);
 		}
 		$("#show-up").append('<span class="golden">占六星出率的' + operator_in_banner.prob[6] * 100 + "% </span><br/>");
@@ -236,7 +325,7 @@ function Show_all_operators() {
 			operator = operator_in_banner.prob_up[0][i];
 			s = '<img class="head-image" src="img/head_image/' + operator.name + '.png" height=50>' + operator.name;
 			$("#show-up").append(s);
-			Set_border_color($(".head-image:last"), operator.star);
+			Set_border_color($("#show-up .head-image:last"), operator.star);
 			$("#show6").append(" / " + operator.name);
 		}
 		$("#show-up").append('<span class="golden">在六星剩余出率中以5倍概率提升</span><br/>');
@@ -246,7 +335,7 @@ function Show_all_operators() {
 			operator = operator_in_banner.prob_up[5][i];
 			s = '<img class="head-image" src="img/head_image/' + operator.name + '.png" height=50>' + operator.name;
 			$("#show-up").append(s);
-			Set_border_color($(".head-image:last"), operator.star);
+			Set_border_color($("#show-up .head-image:last"), operator.star);
 			$("#show5").append(" / " + operator.name);
 		}
 		$("#show-up").append('<span class="golden">占五星出率的' + operator_in_banner.prob[5] * 100 + "% </span><br/>");
@@ -254,9 +343,9 @@ function Show_all_operators() {
 	if (operator_in_banner.prob[4]) {
 		for (i in operator_in_banner.prob_up[4]) {
 			operator = operator_in_banner.prob_up[4][i];
-			s = '<img class="head-image" src="img/head_image/' + operator.name + '.png">' + operator.name;
+			s = '<img class="head-image" src="img/head_image/' + operator.name + '.png" height=50>' + operator.name;
 			$("#show-up").append(s);
-			Set_border_color($(".head-image:last"), operator.star);
+			Set_border_color($("#show-up .head-image:last"), operator.star);
 			$("#show4").append(" / " + operator.name);
 		}
 		$("#show-up").append('<span class="golden">占四星出率的' + operator_in_banner.prob[4] * 100 + "% </span><br/>");
@@ -272,25 +361,26 @@ function Set_border_color(obj, star) {
 function show_own(arr) {
 	// 显示已有干员
 	if (arr) {
+		arr.sort((a, b) => b.star - a.star); // descending order
 		$("#own").show();
-		var s = "";
+		$("#operators-get").html(""); // reset
+		var s;
 		for (let i in own) {
-			if (i > 0) {
-				s += ", ";
-			}
-			if (own[i].count > 1) {
-				s += own[i].name + '<span style="color: gray;">*' + own[i].count + '</span>\t';
-			} else {
-				s += own[i].name + '\t';
-			}
+			s = `<img class="head-image" src="img/head_image/${own[i].name}.png" height=50>${own[i].name}\
+				<span style="color: gray;">*${own[i].count}</span>\t`;
+			$("#operators-get").append(s);
+			Set_border_color($("#operators-get .head-image:last"), own[i].star);
 		}
-		$("#operators-get").html(s);
+		
 	}
 }
 
 // 重置所有信息
 function reset_data() {
-    banner_data = {"_common": {"no_six_star": 0, "p": p_defalt.slice()}};
+    banner_data = {
+    	"_common": {"no_six_star": 0, "p": p_defalt.slice()},
+    	"_early": {"no_six_star": 0, "p": p_defalt.slice()}
+    };
     store_banner_data();
     own = [];
     store_own_data();
@@ -298,32 +388,46 @@ function reset_data() {
     no_six_star = 0;
     p = p_defalt.slice();
     num_get = 0;
+    single6 = 0;
 
     // 重置页面内容
-    $("#num5 span").html(get_five_star);
+    /*$("#num5 span").html(get_five_star);
     $("#num5").show();
     $("#num6").html(no_six_star);
     $("#prob6").html(p[3] * 100);
     $("#num-get").html(num_get);
     $("#get1").hide();
-    $("#get10").hide();
+    $("#get10").hide();*/
     $("#own").hide();
+    $("#operators-get").html("");
+    Select_banner(0)
 }
 
 // 用localStorage储存卡池信息和已有干员信息
 function load_banner_data() {
-	return JSON.parse(localStorage.getItem("banner_data")) || {"_common": {"no_six_star": 0, "p": p_defalt.slice()}}
+	return JSON.parse(localStorage.getItem("banner_data")) || {
+		"_common": {"no_six_star": 0, "p": p_defalt.slice()},
+    	"_early": {"no_six_star": 0, "p": p_defalt.slice()}
+    }
 }
 
 function store_banner_data(banner) {
 	if (banner) {
-		if (operator_in_banner.limited) {
+		if (operator_in_banner.limited == 1) {
 			// 限定池保存此卡池的五星和六星保底
 			banner_data[banner] = {"get_five_star": get_five_star, "num_get": num_get, "no_six_star": no_six_star, "p": p};
+		} else if (operator_in_banner.limited == 2) {
+			// 中坚寻访
+			banner_data[banner] = {"get_five_star": get_five_star, "num_get": num_get};
+			banner_data["_early"] = {"no_six_star": no_six_star, "p": p};
 		} else {
 			// 常规池保存此卡池的五星保底和公共的六星保底
 			banner_data[banner] = {"get_five_star": get_five_star, "num_get": num_get};
 			banner_data["_common"] = {"no_six_star": no_six_star, "p": p};
+		}
+		if (single6 > 0) {
+			// 保存单六星保底
+			banner_data[banner]["single6"] = single6;
 		}
 	}
 	localStorage.setItem("banner_data", JSON.stringify(banner_data));

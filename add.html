@@ -4,14 +4,24 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>明日方舟模拟寻访系统</title>
-	<!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
 	<link rel="stylesheet" type="text/css" href="static/bootstrap.min.css">
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
 	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="static/style.css">
-	<style type="text/css"></style>	
+	<style type="text/css">
+		.img-input {
+			display: none;
+		}
+		label.input-group-text {
+			background-color: white;
+			padding: 6px 0;
+			border-color: white;
+			width: 80px;
+			text-align: center;
+		}
+	</style>	
 	<script src="code.js"></script>
 
 </head>
@@ -27,8 +37,8 @@
 					<li>
 						<a class="btn btn-link" href="/index.html">模拟寻访</a>
 					</li>
-					<li class="active">
-						<a class="btn btn-link" href="">干员添加</a>
+					<li>
+						<a class="btn btn-link active" href="">干员添加</a>
 					</li>
 					<li>
 						<a class="btn btn-link" href="/add_banner.html">卡池添加</a>
@@ -68,25 +78,49 @@
 						</div>
 					</div>
 					<div class="form-group row">
-					    <label for="img" class="col-sm-2 col-form-label">图片链接</label>
+					    <label for="img" class="col-sm-2 col-form-label">自动添加图片(如果有)</label>
 					    <div class="col-sm-10">
-					    	<input type="text" class="form-control" id="picture" name="img">
+					    	<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="get_img" id="img1" value=1 checked>
+								<label class="form-check-label" for="img1">是</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="get_img" id="img0" value=0>
+								<label class="form-check-label" for="img0">否</label>
+							</div>
+					    	<div class="input-group mb-3 img-input">
+								<label class="input-group-text" for="file1">干员立绘</label>
+								<input type="file" class="form-control" id="file1" name="img">
+							</div>
+							<div class="input-group mb-3 img-input">
+								<label class="input-group-text" for="file2">半身像</label>
+								<input type="file" class="form-control" id="file2" name="long_img">
+							</div>
+							<div class="input-group mb-3 img-input">
+								<label class="input-group-text" for="file3">头像</label>
+								<input type="file" class="form-control" id="file3" name="sm_img">
+							</div>
 					    </div>
 					</div>
 					<div class="form-group row">
-						<label class="col-sm-2 col-form-label">是否可寻访</label>
+						<label class="col-sm-2 col-form-label">类型</label>
 					    <div class="col-sm-10">
+					    	<!-- 0: 不可寻访, 1: 可寻访, 2: 限定, 3: 仅中坚寻访 -->
 						    <div class="form-check form-check-inline">
-								<input class="form-check-input" type="radio" name="limited" id="limited1" value=0>
-								<label class="form-check-label" for="limited1">不可寻访</label>
+								<input class="form-check-input" type="radio" name="in_pool" id="in_pool0" value=0>
+								<label class="form-check-label" for="in_pool0">不可寻访</label>
 							</div>
 							<div class="form-check form-check-inline">
-								<input class="form-check-input" type="radio" name="limited" id="limited2" value=1 checked>
-								<label class="form-check-label" for="limited2">可寻访</label>
+								<input class="form-check-input" type="radio" name="in_pool" id="in_pool1" value=1 checked>
+								<label class="form-check-label" for="in_pool1">可寻访</label>
 							</div>
 							<div class="form-check form-check-inline">
-								<input class="form-check-input" type="radio" name="limited" id="limited3" value=2>
-								<label class="form-check-label" for="inlineRadio3">限定</label>
+								<input class="form-check-input" type="radio" name="in_pool" id="in_pool3" value=3>
+								<label class="form-check-label" for="in_pool3">仅中坚寻访</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="in_pool" id="in_pool2" value=2>
+								<label class="form-check-label" for="in_pool2">限定</label>
 							</div>
 					    </div>
 					</div>
@@ -112,11 +146,14 @@
 							</div>`;
 			$("#input-career").append(career_html);
 		}
-		
-		let ans = confirm("确定要添加干员吗？");
+		$("#img0").click(() => {
+			// show img inputs
+			$(".img-input").css("display", "flex");
+		});
+		/* let ans = confirm("确定要添加干员吗？");
 		if (!ans) {
 			window.location.href = "/index.html";
-		}
+		} */
 	</script>
 </body>
 </html>

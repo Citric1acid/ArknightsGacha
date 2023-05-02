@@ -5,12 +5,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!--ensure proper rendering and touch zooming for all devices-->
 	<title>明日方舟模拟寻访系统</title>
 	<!-- Bootstrap CSS -->
-	<!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
 	<link rel="stylesheet" type="text/css" href="static/bootstrap.min.css">
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
 	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>	
+	<link rel="stylesheet" href="static/themes/smoothness/jquery-ui.min.css">
+	<!-- jQuery ui -->
+	<script src="node_modules/jquery-ui/dist/jquery-ui.js"></script>
 	<link rel="stylesheet" type="text/css" href="static/style.css">
 	<style type="text/css">
 		div.show-operators {
@@ -64,14 +66,15 @@
 	<!-- <script src="operators_.js"></script>
 	<script src="banners_.js"></script> -->
 	<script type="text/javascript">
-		const version = "1.0";
+		const version = "1.2";
 		// initializing
 		// 三星 四星 五星 六星的概率: 40%, 50%, 8%, 2%
 		const p_defalt = [0.4, 0.5, 0.08, 0.02];
 		var p = p_defalt.slice(); // 用slice复制, 否则p会指向p_defalt的引用
-		var get_five_star = 10; // 五星保底的次数
-		var no_six_star = 0; // 无六星的次数
-		var num_get = 0; // 抽取的次数
+		var get_five_star = 10, // 五星保底的次数
+			no_six_star = 0, // 无六星的次数
+			num_get = 0, // 抽取的次数
+			single6 = 0; // 单六星保底的次数
 		var operators, banners;
 		
 		// "说明"显示的文字
@@ -79,7 +82,7 @@
 		点击“寻访一次”按钮进行寻访。 </br>\
 		在这里寻访，你不需要合成玉、不需要源石、也不需要氪金！ </br>\
 		卡池有五星保底、六星保底、特定干员概率提升等功能, 与游戏内相同，可以切换不同的卡池。 </br>\
-		目前可以在“添加干员”和“添加卡池”页面更新干员信息和卡池信息。\
+		在“添加干员”和“添加卡池”页面可以更新干员信息和卡池信息。\
 		本次更新抢在市面上已有的模拟抽卡器更新前更新，让大家第一时间体验抽卡的乐趣，\
 		祝大家在游戏中寻访到喜欢的干员！";
 
@@ -106,7 +109,7 @@
 	<div class="container">
 		<div id="info">
 			<h3>明日方舟模拟寻访系统
-				<a id="description" tabindex="0" class="btn btn-sm btn-info" role="button" data-toggle="popover" data-trigger="focus" style="margin-left: 24px;">说明</a>
+				<a id="description" tabindex="0" class="btn btn-sm btn-info" role="button" data-bs-toggle="popover" data-bs-trigger="focus" style="margin-left: 24px;">说明</a>
 			</h3>
 		</div>
 		<div class="row">
@@ -128,7 +131,7 @@
 				<div id="choose-banner">
 					<span>选择卡池</span>
 					<div class="dropdown" style="display: inline;">
-						<button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						    --选择卡池--
 						</button>
 						<div id="all-banners" class="dropdown-menu" aria-labelledby="dropdownMenuButton"></div>
@@ -146,9 +149,9 @@
 					</div>
 					<div id="get10" style="display: none;"></div>
 					<p id="num5"><span>10</span>次内必出五星以上</p>
+					<p id="single6" style="display: none;"></p>
 					<p>未寻访到六星次数 <span id="num6">0</span>, 当前六星概率 <span id="prob6">2</span>%</p>
 					<p>在当前卡池中已抽取 <span id="num-get">0</span> 次</p>
-					<!-- <p style="color: gray;">注: 刷新页面重置次数</p> -->
 				</div>
 				<div id="banner" class="show-operators">
 					<div id="show-up">以下干员出率提升：<br/></div>
@@ -170,7 +173,7 @@
 					</div>
 				</div>
 				<div id="acknowledgement">
-					<p>感谢<a href="https://zh.moegirl.org.cn/明日方舟">萌娘百科</a>提供的图片</p>
+					<p>感谢<a href="https://zh.moegirl.org.cn/明日方舟">萌娘百科</a>和<a href="https://prts.wiki">PRTS wiki</a>提供的图片</p>
 					<p>本系统由<span style="color: goldenrod;">柠檬酸</span>制作</p>
 				</div>
 			</div>
@@ -191,16 +194,17 @@
 				}
 				$("#dropdownMenuButton").html(banners[0].banner_name);
 			});
-
 		});
 		
 		if (own.length > 0) show_own(own);
 
 		// 弹出说明
-		$("#description").popover({
+		const description = $("#description");
+		const popover = new bootstrap.Popover(description, {
+			container: 'body',
 			content: text,
 			html: true,
-			trigger: "focus"
+			trigger: 'focus'
 		});
 
 		// 寻访一次
@@ -225,6 +229,21 @@
 			} else {
 				$("#prob6").html(2);
 			}
+			if (single6 > 0) {
+				// 单六星保底次数
+				let name = operator_in_banner.prob_up[6][0].name;
+				if (operator_in_banner.limited) {
+					$("#single6").html(`${single6}次之内必出<span style="color: darkorange"> ${name}</span>`);
+				} else if (single6 == 1) {
+					$("#single6").html(`下一个六星必为<span style="color: darkorange"> ${name}</span>`);
+				} else {
+					$("#single6").html(`${single6-1}次后下一个六星必为<span style="color: darkorange"> ${name}</span>`);
+				}
+				$("#single6").show();
+			} else {
+				$("#single6").hide();
+			}
+			// 已抽次数
 			$("#num-get").html(num_get);
 
 			// 保存卡池信息
@@ -237,7 +256,10 @@
 			$("#stars").show(200); // show in 200 ms
 			Set_border_color($("#get1"), got.star);
 			
-			$("#img1").attr("src", "img/illustration/"+ got.name + ".png");
+			$("#img1").attr("src", "img/illustration/"+ got.name + ".png").on("error", () => {
+				// 优先使用本地图片，否则使用网上的图片
+				$("#img1").attr("src", got.img);
+			});
 			$("#img1").attr("alt", got.name + ".png");
 			$("#img1").delay(250).fadeIn(400); // delay 200 ms and fadeIn in 400 ms
 
@@ -267,9 +289,12 @@
 					got = Gacha();
 					var show_stars = Show_star(got.star);
 					var s = '<div class="display10"><p>' + show_stars + '</p>' +
-						'<div class="img-sm"><img class="img-responsive" src="img/long_image/' + got.name + '.png" alt="' + got.name + '.png" height=140></div>' +
+						'<div class="img-sm"><img id="img_' + i + '" class="img-responsive" src="img/long_image/' + got.name + '.png" alt="' + got.name + '.png" height=140></div>' +
 						'<p>' + got.name + ' ' + got.en_name + '</br>' + got.career + '</p></div>';
 					$("#get10").append(s);
+					$("#img_" + i).on("error", () => { // 优先使用本地图片，否则使用网上的图片
+						$("img_" + i).attr(got.long_img);
+					});
 					Set_border_color($(".display10").last(), got.star);
 					$(".display10 img").last().delay(150).fadeIn(250);
 				}, i * 400);
@@ -284,6 +309,21 @@
 				} else {
 					$("#prob6").html(2);
 				}
+				if (single6 > 0) {
+					// 单六星保底次数
+					let name = operator_in_banner.prob_up[6][0].name;
+					if (operator_in_banner.limited) {
+						$("#single6").html(`${single6}次之内必出<span style="color: darkorange"> ${name}</span>`);
+					} else if (single6 == 1) {
+						$("#single6").html(`下一个六星必为<span style="color: darkorange"> ${name}</span>`);
+					} else {
+						$("#single6").html(`${single6-1}次后下一个六星必为<span style="color: darkorange"> ${name}</span>`);
+					}
+					$("#single6").show();
+				} else {
+					$("#single6").hide();
+				}
+				// 已抽次数
 				$("#num-get").html(num_get);
 				
 				// 显示已有干员

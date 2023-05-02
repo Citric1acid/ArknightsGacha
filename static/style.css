@@ -9,9 +9,19 @@ body {
 	border: 1px solid gray;
 	border-radius: 25px;
 	padding: 15px;
+	text-align: center;
 }
 .content {
 	padding: 15px;
+}
+.form-control {
+	font-size: inherit;
+}
+.input-group-text {
+	font-size: inherit;
+}
+div.form-group {
+	margin: 6px 0;
 }
 button.btn {
 	margin: 5px;
