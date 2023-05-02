@@ -144,7 +144,7 @@ function Gacha() {
 	var result = Select(star);
 	console.log("operator: " + result.name);
 	// 单六星保底
-	if (result.name == operator_in_banner.prob_up[6][0]) {
+	if (result.name == operator_in_banner.prob_up[6][0].name) {
 		single6 = 0;
 	}
 	if (single6 > 1 && star < 6) {

@@ -289,11 +289,12 @@
 					got = Gacha();
 					var show_stars = Show_star(got.star);
 					var s = '<div class="display10"><p>' + show_stars + '</p>' +
-						'<div class="img-sm"><img id="img_' + i + '" class="img-responsive" src="img/long_image/' + got.name + '.png" alt="' + got.name + '.png" height=140></div>' +
+						'<div class="img-sm"><img class="img-responsive" alt="' + got.name + '.png" height=140></div>' +
 						'<p>' + got.name + ' ' + got.en_name + '</br>' + got.career + '</p></div>';
 					$("#get10").append(s);
-					$("#img_" + i).on("error", () => { // 优先使用本地图片，否则使用网上的图片
-						$("img_" + i).attr(got.long_img);
+					$("#get10 .img-responsive:last").attr("src", "img/long_image/" + got.name + ".png").on("error", () => { 
+						// 优先使用本地图片，否则使用网上的图片
+						$("#get10 .img-responsive:last").attr("src", got.long_img);
 					});
 					Set_border_color($(".display10").last(), got.star);
 					$(".display10 img").last().delay(150).fadeIn(250);
